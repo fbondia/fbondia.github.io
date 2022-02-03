@@ -1,0 +1,29 @@
+{% assign experiences = site.data.experience %}
+{% assign skills = site.data.skills %}
+{% assign publications = site.data.publications %}
+{% assign projects = site.data.projects %}
+{% assign about = site.data.about %}
+
+<footer class="footer">
+    <div class="text-center">
+
+        {% if about %}
+            <a href="#about">About</a> |
+        {% endif %}
+        
+        {% if skills %}
+            <a href="#skills">Skills</a> |
+        {% endif %}
+        
+        {% if experiences %}
+            <a href="#experiences">Experiences</a>
+        {% endif %}
+        
+        {% if projects %}
+            <a href="#projects">Projects</a>
+        {% endif %}
+        
+        <small class="copyright">{{ site.data.footer }}</small>
+
+    </div><!--//container-->
+</footer><!--//footer-->

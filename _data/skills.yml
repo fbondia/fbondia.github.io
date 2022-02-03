@@ -1,0 +1,125 @@
+title: Skills &amp; Proficiency
+categories:
+
+  - name: Development Achievements
+    toolset:
+      - name: Low-Level Code Analysis
+        level: 100%
+      - name: Secure Coding Standards
+        level: 100%
+      - name: Reactive Systems / Reactive Programming
+        level: 50%
+      - name: Microservice
+        level: 50%
+      - name: Sonarqube plugin development
+        level: 100%
+      - name: Jenkins plugin development
+        level: 75%
+      - name: REST API (develop, consume, swagger generation)
+        level: 100%
+      - name: SOAP Webservices
+        level: 50%
+      - name: JVM Agents development
+        level: 75%
+      - name: .NET Test Adapters development
+        level: 75%
+
+  - name: Development Technologies
+    toolset:
+      - name: Java
+        level: 100%
+      - name: .NET / C#
+        level: 75%
+      - name: Python
+        level: 50%
+      - name: Maven
+        level: 100%
+      - name: Spring
+        level: 100%
+      - name: Hibernate
+        level: 75%
+      - name: SpringData
+        level: 75%
+      - name: Quartz
+        level: 50%
+      - name: Kafka
+        level: 50%
+      - name: ActiveMQ
+        level: 75%
+
+  - name: Testing	
+    toolset:
+      - name: jMeter
+        level: 75%
+      - name: TestContainers
+        level: 75%
+      - name: Mockito
+        level: 75%
+
+  - name: Mobile Development	
+    toolset:
+      - name: Android Native Development
+        level: 50%
+      - name: Ionic
+        level: 100%
+      - name: Cordova
+        level: 75%
+      - name: React-Native
+        level: 75%
+
+  - name: Frontend Development	
+    toolset:
+      - name: Android Native Development
+        level: 50%
+      - name: HTML5 & CSS
+        level: 75%
+      - name: Bootstrap
+        level: 75%
+      - name: jQuery
+        level: 75%
+      - name: JSF Primefaces
+        level: 25%
+      - name: Angular
+        level: 50%
+      - name: AngularJS
+        level: 100%
+      - name: React
+        level: 75%
+
+  - name: CICD / Infraestructure
+    toolset:
+      - name: Jenkins & Groovy
+        level: 75%
+      - name: Docker
+        level: 75%
+      - name: Tomcat
+        level: 100%
+      - name: JBoss
+        level: 50%
+      - name: Weblogic
+        level: 50%
+      - name: Apache
+        level: 100%
+      - name: Ngnix
+        level: 75%
+      - name: Bash Script
+        level: 75%
+      - name: Linux, Debian, CentOS
+        level: 75%
+      - name: Sonarqube
+        level: 100%
+      - name: Google Cloud
+        level: 50%
+      - name: Nexus
+        level: 100%
+
+  - name: Data Management
+    toolset:
+      - name: Sql Server
+        level: 100%
+      - name: Oracle
+        level: 100%
+      - name: MySql
+        level: 100%
+      - name: Elasticsearch
+        level: 75%

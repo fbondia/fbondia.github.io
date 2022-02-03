@@ -1,0 +1,39 @@
+{% assign experiences = site.data.experience %}
+{% assign skills = site.data.skills %}
+{% assign publications = site.data.publications %}
+{% assign projects = site.data.projects %}
+{% assign about = site.data.about %}
+
+<div class="sections-container container-block">
+
+  <h2 class="container-block-title">
+    Sections
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+
+    {% if about %}
+      <li><a href="#about">About</a></li>
+    {% endif %}
+
+    {% if skills %}
+      <li><a href="#skills">Skills</a></li>
+      {% for category in skills.categories %}
+        <li>&nbsp;&nbsp;<a href="#skill{{forloop.index}}">{{category.name}}</a></li>
+      {% endfor %}
+    {% endif %}
+
+    {% if experiences %}
+      <li><a href="#experiences">Experiences</a></li>
+    {% endif %}
+
+    {% if projects %}
+      <li><a href="#projects">Projects</a></li>
+    {% endif %}
+
+    {% if publications %}
+      <li><a href="#publications">Publications</a></li>
+    {% endif %}
+  </ul>
+
+</div>
