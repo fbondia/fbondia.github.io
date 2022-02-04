@@ -27,6 +27,11 @@ p {
     line-height: 1.5;
 }
 
+em {
+    font-style: normal;
+    color:#800
+}
+
 .wrapper {
     background:$theme-color;
     max-width: 1000px;
@@ -186,6 +191,7 @@ p {
             float:left;
         }    
         .index {
+            list-style-type: square;
             margin-bottom:20px;
             li {
                 .time {
@@ -197,7 +203,7 @@ p {
     .upper-row {
         position: relative;
         overflow: hidden;
-        margin-bottom: 2px;
+        margin-bottom: 10px;
     }
     .job-title, .degree {
         color: $text-color;
@@ -218,7 +224,6 @@ p {
         color: $text-grey;
     }
     .company, .university {
-        margin-bottom: 10px;
         color: $text-grey;
     }
 

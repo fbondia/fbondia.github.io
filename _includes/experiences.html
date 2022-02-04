@@ -1,50 +1,71 @@
 {% assign experiences = site.data.experience[site.language] %}
 
 {% if experiences %}
-<a name="experiences"></a>
-<section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>    
-    {{experiences.title}}
-  </h2>
+
+  <a name="experiences"></a>
+
+  <section class="section experiences-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      </span>    
+      {{experiences.title}}
+    </h2>
 
 
-  <ul class="index">
-  {% for experience in experiences.roles %}
-    <li>
-      <a href="#exp{{forloop.index}}">
-        <i>{{ experience.time }}</i> - [<b>{{ experience.company }}</b>] {{ experience.role }}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
+    <ul class="index">
+      {% for experience in experiences.roles %}
+        <li>
+          <a href="#exp{{forloop.index}}">
+            [<b>{{ experience.company }}</b>] <em>{{ experience.role }}</em> - <i style="font-size: 10px;">{{ experience.period }}</i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
 
-  {% for experience in experiences.roles %}
-  <a name="exp{{forloop.index}}"></a>
-  <div class="item">
+    {% for experience in experiences.roles %}
+      <a name="exp{{forloop.index}}"></a>
+      <div class="item">
 
-    <div class="meta">
-      {% if experience.logo %}
-        <img class="logo" src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="logo" />
-      {% endif %}
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-      <div class="company">{{ experience.company }}</div>
-    </div><!--//meta-->
-    
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+        <div class="meta">
+          {% if experience.logo %}
+            <img class="logo" src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="logo" />
+          {% endif %}
+          
+          <div class="upper-row">
+            <h3 class="job-title">{{ experience.role }}</h3>
+            <div class="company">{{ experience.company }}</div>
+            <div class="time">{{ experience.time }}</div>
+          </div>
 
-  </div><!--//item-->
-  {% endfor %}
+        </div>
+        
+        {% if experience.details %}
+        <div class="details">
+          {{ experience.details | markdownify }}
 
-</section><!--//section-->
-{% endif %}
+          {% if experience.highlights %}
+
+            {% for highlight in experience.highlights %}
+
+              <b>{{highlight.title}}</b>
+              <ul>
+                {% for item in highlight.items %}
+                  <li>{{item.name}}</li>
+                {% endfor %}
+              </ul>
+            
+            {% endfor %}
+
+          {% endif %}
+
+        </div><!--//details-->
+        {% endif %}
+
+      </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+
+  {% endif %}
 
