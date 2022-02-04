@@ -1,125 +1,267 @@
-title: Skills &amp; Proficiency
-categories:
+en:
+  title: Skills &amp; Proficiency
+  categories:
 
-  - name: Development Achievements
-    toolset:
-      - name: Low-Level Code Analysis
-        level: 100%
-      - name: Secure Coding Standards
-        level: 100%
-      - name: Reactive Systems / Reactive Programming
-        level: 50%
-      - name: Microservice
-        level: 50%
-      - name: Sonarqube plugin development
-        level: 100%
-      - name: Jenkins plugin development
-        level: 75%
-      - name: REST API (develop, consume, swagger generation)
-        level: 100%
-      - name: SOAP Webservices
-        level: 50%
-      - name: JVM Agents development
-        level: 75%
-      - name: .NET Test Adapters development
-        level: 75%
+    - name: Development Achievements
+      toolset:
+        - name: End-to-end software development
+          level: 100%
+        - name: Low-Level Code Analysis
+          level: 100%
+        - name: Secure Coding Standards
+          level: 100%
+        - name: Reactive Systems / Reactive Programming
+          level: 60%
+        - name: Event Driven Architecture
+          level: 60%
+        - name: Microservice
+          level: 60%
+        - name: Sonarqube plugin development
+          level: 100%
+        - name: Jenkins plugin development
+          level: 60%
+        - name: REST API (develop, consume, swagger generation)
+          level: 100%
+        - name: SOAP Webservices
+          level: 60%
+        - name: JVM Agents development
+          level: 80%
+        - name: .NET Test Adapters development
+          level: 80%
+        - name: Backend development
+          level: 100%
+        - name: Web development
+          level: 80%
+        - name: Mobile development
+          level: 80%
 
-  - name: Development Technologies
-    toolset:
-      - name: Java
-        level: 100%
-      - name: .NET / C#
-        level: 75%
-      - name: Python
-        level: 50%
-      - name: Maven
-        level: 100%
-      - name: Spring
-        level: 100%
-      - name: Hibernate
-        level: 75%
-      - name: SpringData
-        level: 75%
-      - name: Quartz
-        level: 50%
-      - name: Kafka
-        level: 50%
-      - name: ActiveMQ
-        level: 75%
+    - name: Development Technologies
+      toolset:
+        - name: Java
+          level: 100%
+        - name: .NET / C#
+          level: 80%
+        - name: Python
+          level: 60%
+        - name: Maven
+          level: 100%
+        - name: Spring Framework
+          level: 100%
+        - name: Hibernate
+          level: 80%
+        - name: Quartz
+          level: 80%
+        - name: Kafka
+          level: 60%
+        - name: ActiveMQ
+          level: 80%
 
-  - name: Testing	
-    toolset:
-      - name: jMeter
-        level: 75%
-      - name: TestContainers
-        level: 75%
-      - name: Mockito
-        level: 75%
+    - name: Mobile Development	
+      toolset:
+        - name: Android Native Development
+          level: 60%
+        - name: Ionic
+          level: 100%
+        - name: Cordova
+          level: 80%
+        - name: React-Native
+          level: 60%
 
-  - name: Mobile Development	
-    toolset:
-      - name: Android Native Development
-        level: 50%
-      - name: Ionic
-        level: 100%
-      - name: Cordova
-        level: 75%
-      - name: React-Native
-        level: 75%
+    - name: Frontend Development	
+      toolset:
+        - name: HTML5 & CSS
+          level: 80%
+        - name: Bootstrap
+          level: 80%
+        - name: jQuery
+          level: 80%
+        - name: JSF Primefaces
+          level: 25%
+        - name: Angular
+          level: 60%
+        - name: AngularJS
+          level: 100%
+        - name: React
+          level: 80%
 
-  - name: Frontend Development	
-    toolset:
-      - name: Android Native Development
-        level: 50%
-      - name: HTML5 & CSS
-        level: 75%
-      - name: Bootstrap
-        level: 75%
-      - name: jQuery
-        level: 75%
-      - name: JSF Primefaces
-        level: 25%
-      - name: Angular
-        level: 50%
-      - name: AngularJS
-        level: 100%
-      - name: React
-        level: 75%
 
-  - name: CICD / Infraestructure
-    toolset:
-      - name: Jenkins & Groovy
-        level: 75%
-      - name: Docker
-        level: 75%
-      - name: Tomcat
-        level: 100%
-      - name: JBoss
-        level: 50%
-      - name: Weblogic
-        level: 50%
-      - name: Apache
-        level: 100%
-      - name: Ngnix
-        level: 75%
-      - name: Bash Script
-        level: 75%
-      - name: Linux, Debian, CentOS
-        level: 75%
-      - name: Sonarqube
-        level: 100%
-      - name: Google Cloud
-        level: 50%
-      - name: Nexus
-        level: 100%
+    - name: Data Management
+      toolset:
+        - name: Sql Server
+          level: 100%
+        - name: Oracle
+          level: 100%
+        - name: MySql
+          level: 100%
+        - name: Elasticsearch
+          level: 80%
+        - name: PouchDB (mobile)
+          level: 80%
 
-  - name: Data Management
-    toolset:
-      - name: Sql Server
-        level: 100%
-      - name: Oracle
-        level: 100%
-      - name: MySql
-        level: 100%
-      - name: Elasticsearch
-        level: 75%
+    - name: Testing	
+      toolset:
+        - name: jMeter
+          level: 80%
+        - name: TestContainers
+          level: 80%
+        - name: Mockito
+          level: 80%
+
+    - name: CICD / Infraestructure
+      toolset:
+        - name: Jenkins & Groovy
+          level: 80%
+        - name: Docker
+          level: 80%
+        - name: Tomcat
+          level: 100%
+        - name: JBoss
+          level: 60%
+        - name: Weblogic
+          level: 60%
+        - name: Apache
+          level: 100%
+        - name: Ngnix
+          level: 80%
+        - name: Bash Script
+          level: 80%
+        - name: Linux, Debian, CentOS
+          level: 80%
+        - name: Sonarqube
+          level: 100%
+        - name: Google Cloud
+          level: 60%
+        - name: Nexus
+          level: 100%
+
+
+pt:
+  title: Habilidades &amp; Competências
+  categories:
+
+    - name: Habilidades de Desenvolvimento
+      toolset:
+        - name: Desenvolvimento de software fim-a-fim (E2E)
+          level: 100%
+        - name: Low-Level Code Analysis
+          level: 100%
+        - name: Secure Coding Standards
+          level: 100%
+        - name: Reactive Systems / Reactive Programming
+          level: 60%
+        - name: Event Driven Architecture
+          level: 60%
+        - name: Microservice
+          level: 60%
+        - name: Sonarqube plugin development
+          level: 100%
+        - name: Jenkins plugin development
+          level: 80%
+        - name: REST API (develop, consume, swagger generation)
+          level: 100%
+        - name: SOAP Webservices
+          level: 60%
+        - name: JVM Agents development
+          level: 80%
+        - name: .NET Test Adapters development
+          level: 80%
+
+    - name: Tecnologias de Desenvolvimento
+      toolset:
+        - name: Java
+          level: 100%
+        - name: .NET / C#
+          level: 80%
+        - name: Python
+          level: 60%
+        - name: Maven
+          level: 100%
+        - name: Spring
+          level: 100%
+        - name: Hibernate
+          level: 80%
+        - name: SpringData
+          level: 80%
+        - name: Quartz
+          level: 60%
+        - name: Kafka
+          level: 60%
+        - name: ActiveMQ
+          level: 80%
+
+    - name: Testes &amp; Medições	
+      toolset:
+        - name: jMeter
+          level: 80%
+        - name: TestContainers
+          level: 80%
+        - name: Mockito
+          level: 80%
+
+    - name: Denvolvimento Mobile
+      toolset:
+        - name: Android Native Development
+          level: 60%
+        - name: Ionic
+          level: 100%
+        - name: Cordova
+          level: 80%
+        - name: React-Native
+          level: 80%
+
+    - name: Desenvolvimento Frontend
+      toolset:
+        - name: Android Native Development
+          level: 60%
+        - name: HTML5 & CSS
+          level: 80%
+        - name: Bootstrap
+          level: 80%
+        - name: jQuery
+          level: 80%
+        - name: JSF Primefaces
+          level: 25%
+        - name: Angular
+          level: 60%
+        - name: AngularJS
+          level: 100%
+        - name: React
+          level: 80%
+
+    - name: CICD / Infraestrutura
+      toolset:
+        - name: Jenkins & Groovy
+          level: 80%
+        - name: Docker
+          level: 80%
+        - name: Tomcat
+          level: 100%
+        - name: JBoss
+          level: 60%
+        - name: Weblogic
+          level: 60%
+        - name: Apache
+          level: 100%
+        - name: Ngnix
+          level: 80%
+        - name: Bash Script
+          level: 80%
+        - name: Linux, Debian, CentOS
+          level: 80%
+        - name: Sonarqube
+          level: 100%
+        - name: Google Cloud
+          level: 60%
+        - name: Nexus
+          level: 100%
+
+    - name: Gerenciamento de Dados
+      toolset:
+        - name: Sql Server
+          level: 100%
+        - name: Oracle
+          level: 100%
+        - name: MySql
+          level: 100%
+        - name: Elasticsearch
+          level: 80%

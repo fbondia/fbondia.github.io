@@ -3,6 +3,8 @@
 # Site Settings
 title: Fabiano Bondia
 url: 'https://fbondia.github.io'
+languages: ["en", "pt"] 
+language: "en"
 
 description: Fabiano Bondia
 theme_skin: ceramic # blue turquoise green berry orange ceramic

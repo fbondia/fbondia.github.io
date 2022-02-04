@@ -1,9 +1,33 @@
-title: About
-summary: |
-  I have been working with software development and architecture for over 20 years, creating solutions with the main technologies in the market for small, medium, large and sometimes specially complex companies in the most diverse segments.
+en:
+  title: About
+  summary: |
+    I have been working with software development and architecture for over 20 years, creating solutions with the main technologies in the market for small, medium, large and sometimes specially complex companies in the most diverse segments.
 
-  My experience with technology is quite varied, and although my focus right now is Java development, I also work with the Microsoft platform (.Net, Sql Server, MVC, etc.) and I've done developments based on AngularJS, React, Python, Php, Flex, Oracle, MySql, among other technologies.
+    My experience with technology is quite varied, and although my focus right now is Java development, I also work with the Microsoft platform (.Net, Sql Server, MVC, etc.) and I've done developments based on AngularJS, React, Python, Php, Flex, Oracle, MySql, among other technologies.
 
-  I believe to be quite courageous, when exploring subjects and technologies that are totally unknown and through persistence and patience (and maybe some intuition), being able to accomplish the work assigned to me in a short time. These challenges move me.
+    I believe to be quite courageous, when exploring subjects and technologies that are totally unknown and through persistence and patience (and maybe some intuition), being able to accomplish the work assigned to me in a short time. These challenges move me.
 
-  In recent years I've been working with an international team in Spain on a very technically sophisticated product that has allowed me to improve what I know and learn a lot of things I didn't know.
+    In recent years I've been working with an international team in Spain on a very technically sophisticated product that has allowed me to improve what I know and learn a lot of things I didn't know.
+
+    <b>Highlights</b>
+
+    <ul>
+      <li>Large experience in software development (+20)</li>
+      <li>End-to-end development skills</li>
+      <li>Knowledge about server administration and establishment of CICD process</li>
+      <li>Cyber security knowledge</li>
+      <li>Commitment and focus on problem solving</li>
+    </ul>
+  
+pt:
+  title: Sobre Mim
+  summary: |
+    Tenho trabalhado com desenvolvimento e arquitetura de software por mais de 20 anos, criando soluções com as principais tecnologias no mercado. Já trabalhei para empresas dos mais diversos segmentos. Empresas pequenas, médias, grandes e - algumas vezes - empresas especialmente complexas.
+
+    Minha experiência com tecnologia é bastante variada. Estive envolvido em todas (ou quase todas) as etapas da maior parte dos projetos em que participei, isso é, desde sua concepção/desenho, até sua construção, implantação e suporte. A ideia de estar envolvido em todas as fases de um sofware me atrai bastante.
+    
+    Meu foco atual é desenvolvimento Backend Java, mas já trabalhei com muitas outras tecnologias, tanto no Backend, quanto no Frontend web ou mobile. 
+
+    Acredito ser bastante "valente", explorando assuntos e tecnologias totalmente desconhecidas, e através de persistência, paciência (e talvez alguma intuição), ter sido capaz de entregar as tarefas a mim designadas em períodos aceitáveis de tempo. Os desafios me movem.
+
+    Nos últimos anos tenho trabalhado com uma equipe internacional na Espanha, em um produto de Cyber Segurança muito sofisticado técnicamente e que tem me permitido aprimarar o que sei e aprender outras tantas coisas que não sabia.

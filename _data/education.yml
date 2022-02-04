@@ -1,3 +1,10 @@
-- degree: Bachelor in Information Systems
-  university: Universidade Bandeirantes
-  time: 2002 - 2006
+en:
+  - degree: Bachelor in Information Systems
+    university: Universidade Bandeirantes
+    time: 2002 - 2006
+
+
+pt:
+  - degree: Bacharel em Sistemas de Informação
+    university: Universidade Bandeirantes
+    time: 2002 - 2006

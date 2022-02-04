@@ -1,42 +1,92 @@
-about: True
-education: True
+en:
+  about: True
+  education: True
 
-# Profile information
-name: Fabiano Bondia
-tagline: Full Stack Developer
-avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Fabiano Bondia
+  tagline: Full Stack Developer
+  avatar: profile.jpeg  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-# Sidebar links
-email: fabiano.bondia@gmail.com
-linkedin: fbondia
-github: fbondia
-bitbucket: fbondia
-twitter: '@fbondia'
-pdf: cv.pdf
-phone:
-website:
-telegram:
-gitlab:
-stack-overflow:
-codewars:
-goodreads:
+  # Sidebar links
+  email: fabiano.bondia@gmail.com
+  linkedin: fbondia
+  github: fbondia
+  bitbucket: fbondia
+  twitter: '@fbondia'
+  pdf: cv.pdf
+  phone:
+  website:
+  telegram:
+  gitlab:
+  stack-overflow:
+  codewars:
+  goodreads:
 
-languages:
-  - idiom: Portuguese
-    level: Native
+  languages:
+    title: Languages
+    list:
+      - idiom: Portuguese
+        level: Native
 
-  - idiom: English
-    level: Professional
+      - idiom: English
+        level: Professional
 
-  - idiom: Spanish
-    level: Professional
+      - idiom: Spanish
+        level: Professional
 
-interests:
-  - item: Junguian Theory
-    link:
+  interests:
+    - item: Neuroscience
+      link:
 
-  - item: Neuroscience
-    link:
+    - item: Junguian Theory
+      link:
 
-  - item: Buddhism
-    link:
+    - item: Buddhism
+      link:
+
+pt:
+
+  about: True
+  education: True
+
+  # Profile information
+  name: Fabiano Bondia
+  tagline: Full Stack Developer
+  avatar: profile.jpeg  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: fabiano.bondia@gmail.com
+  linkedin: fbondia
+  github: fbondia
+  bitbucket: fbondia
+  twitter: '@fbondia'
+  pdf: cv.pdf
+  phone:
+  website:
+  telegram:
+  gitlab:
+  stack-overflow:
+  codewars:
+  goodreads:
+
+  languages:
+    title: Idiomas
+    list:
+      - idiom: Português
+        level: Nativo
+
+      - idiom: Inglês
+        level: Profissional
+
+      - idiom: Espanhol
+        level: Profissional
+
+  interests:
+    - item: Neurociência
+      link:
+
+    - item: Teoria Junguiana
+      link:
+
+    - item: Budismo
+      link:
