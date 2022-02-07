@@ -13,7 +13,6 @@ en:
         - title: "Technologies" 
           items:
             - name: Jenkins, Maven and Sonarqube plugins development
-            - name: Jenkins, Maven and Sonarqube plugins development
             - name: Java, Spring, ActiveMQ, Elasticsearch
             - name: Java and .NET low-level structures
             - name: Java and .NET code instrumentation
