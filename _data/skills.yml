@@ -7,15 +7,15 @@ en:
         - name: End-to-end software development
           level: 100%
         - name: Low-Level Code Analysis
-          level: 100%
+          level: 80%
         - name: Secure Coding Standards
-          level: 100%
+          level: 80%
         - name: Reactive Systems / Reactive Programming
-          level: 60%
+          level: 40%
         - name: Event Driven Architecture
-          level: 60%
+          level: 40%
         - name: Microservice
-          level: 60%
+          level: 40%
         - name: Sonarqube plugin development
           level: 100%
         - name: Jenkins plugin development
@@ -52,20 +52,20 @@ en:
         - name: Quartz
           level: 80%
         - name: Kafka
-          level: 60%
+          level: 50%
         - name: ActiveMQ
           level: 80%
 
     - name: Mobile Development	
       toolset:
         - name: Android Native Development
-          level: 60%
+          level: 50%
         - name: Ionic
           level: 100%
         - name: Cordova
           level: 80%
         - name: React-Native
-          level: 60%
+          level: 40%
 
     - name: Frontend Development	
       toolset:
@@ -82,7 +82,7 @@ en:
         - name: AngularJS
           level: 100%
         - name: React
-          level: 80%
+          level: 40%
 
 
     - name: Data Management
@@ -94,7 +94,7 @@ en:
         - name: MySql
           level: 100%
         - name: Elasticsearch
-          level: 80%
+          level: 60%
         - name: PouchDB (mobile)
           level: 80%
 
