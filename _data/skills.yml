@@ -107,7 +107,7 @@ en:
         - name: Mockito
           level: 80%
 
-    - name: CICD / Infraestructure
+    - name: CICD / Infrastructure
       toolset:
         - name: Jenkins & Groovy
           level: 80%
