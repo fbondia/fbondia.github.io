@@ -13,9 +13,9 @@ en:
         - name: Reactive Systems / Reactive Programming
           level: 40%
         - name: Event Driven Architecture
-          level: 40%
+          level: 80%
         - name: Microservice
-          level: 40%
+          level: 60%
         - name: Sonarqube plugin development
           level: 100%
         - name: Jenkins plugin development
