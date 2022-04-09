@@ -7,7 +7,7 @@ en:
       company: Bugscout Inc.
       logo: bugscout.jpeg
       details: |
-        Working as a senior engineer for Bugscout in its main product: a static code analyzer to be used in secure sofware development cycle/SecDevOps adapted to the main security software standards (OWASP, PCI, CWE, etc).
+        Working as a senior engineer for Bugscout in its main product: a static code analyzer to be used in secure software development cycle/SecDevOps adapted to the main security software standards (OWASP, PCI, CWE, etc).
         
       highlights:
         - title: "Technologies" 
@@ -342,7 +342,7 @@ pt:
         Nesta função estive trabalhando em várias tecnologias e desafios, tais como:
         
           - Desenvolvimento de plugins para Jenkins, Maven e Sonarqube; 
-          - Desenvolvimento de componentes de sofware utilizando Java, Springboot, ActiveMQ, Elasticsearch; 
+          - Desenvolvimento de componentes de software utilizando Java, Springboot, ActiveMQ, Elasticsearch; 
           - Trabalhando com estruturas de baixo nível para Java e .NET, instrumentalizando código, manipulando AST, bytecode/IL e criando e explorando a construção de TestAdapters (.NET) e JavaAgents (JVM); 
           - Desenvolvimento de integrações Java x SAP;
           - Dockerização de componentes;
