@@ -41,6 +41,7 @@ en:
             - name: Hibernate
             - name: JBoss
             - name: Quartz
+            - name: Spring-Batch
             - name: Sql Server
             - name: Angular
             - name: JSF Primefaces
@@ -69,7 +70,7 @@ en:
     - role: Software Engineer
       company: Schneider Electric
       logo: schneider.png
-      time: 08/2014 - 02/2016
+      time: 01/2014 - 06/2014
       period: 1 yrs 7 mos
       details: |
         I was responsible for the design, development and deployment of a tool for calculating commissions for company sales representatives.
@@ -361,6 +362,7 @@ pt:
           - Hibernate
           - JBoss
           - Quartz
+          - Spring-Batch
           - Sql Server
           - Angular
           - JSF Primefaces
@@ -383,7 +385,7 @@ pt:
 
     - role: Engenheiro de Software
       company: Schneider Electric
-      time: 08/2014 - 02/2016
+      time: 01/2014 - 06/2014
       details: |
         Trabalho desenvolvido através da consultoria Nalbatech.
         
