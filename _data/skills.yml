@@ -6,6 +6,18 @@ en:
       toolset:
         - name: End-to-end software development
           level: 100%
+        - name: REST API (develop, consume, swagger generation)
+          level: 100%
+        - name: GraphQL API development
+          level: 100%
+        - name: SOAP Webservices
+          level: 60%
+        - name: Backend development (Java, Springboot)
+          level: 100%
+        - name: Web development (AngularJS, Angular, React)
+          level: 80%
+        - name: Mobile development (Ionic, React-Native)
+          level: 80%
         - name: Low-Level Code Analysis
           level: 50%
         - name: Secure Coding Standards
@@ -20,19 +32,9 @@ en:
           level: 100%
         - name: Jenkins plugin development
           level: 60%
-        - name: REST API (develop, consume, swagger generation)
-          level: 100%
-        - name: SOAP Webservices
-          level: 60%
         - name: JVM Agents development
           level: 80%
         - name: .NET Test Adapters development
-          level: 80%
-        - name: Backend development
-          level: 100%
-        - name: Web development
-          level: 80%
-        - name: Mobile development
           level: 80%
 
     - name: Development Technologies
@@ -69,6 +71,12 @@ en:
 
     - name: Frontend Development	
       toolset:
+        - name: React
+          level: 40%
+        - name: Angular
+          level: 60%
+        - name: AngularJS
+          level: 100%
         - name: HTML5 & CSS
           level: 80%
         - name: Bootstrap
@@ -77,12 +85,6 @@ en:
           level: 80%
         - name: JSF Primefaces
           level: 25%
-        - name: Angular
-          level: 60%
-        - name: AngularJS
-          level: 100%
-        - name: React
-          level: 40%
 
 
     - name: Data Management
@@ -111,7 +113,7 @@ en:
       toolset:
         - name: Jenkins & Groovy
           level: 80%
-        - name: Docker
+        - name: Docker, Docker-Compose, Kubernetes
           level: 80%
         - name: Tomcat
           level: 100%
@@ -130,6 +132,8 @@ en:
         - name: Sonarqube
           level: 100%
         - name: Google Cloud
+          level: 60%
+        - name: AWS
           level: 60%
         - name: Nexus
           level: 100%
