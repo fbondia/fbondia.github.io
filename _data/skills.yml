@@ -7,15 +7,15 @@ en:
         - name: End-to-end software development
           level: 100%
         - name: Low-Level Code Analysis
-          level: 80%
+          level: 50%
         - name: Secure Coding Standards
-          level: 80%
+          level: 50%
         - name: Reactive Systems / Reactive Programming
-          level: 40%
+          level: 50%
         - name: Event Driven Architecture
-          level: 80%
+          level: 50%
         - name: Microservice
-          level: 60%
+          level: 50%
         - name: Sonarqube plugin development
           level: 100%
         - name: Jenkins plugin development

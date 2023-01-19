@@ -1,19 +1,20 @@
 en:
   title: Professional Experience
   roles:
-    - role: Senior Software Engineer
+    - role: Software Engineer
       time: 08/2018 - Present
       period: since 2018
       company: Bugscout Inc.
       logo: bugscout.jpeg
       details: |
-        Working as a senior engineer for Bugscout in its main product: a static code analyzer to be used in secure software development cycle/SecDevOps adapted to the main security software standards (OWASP, PCI, CWE, etc).
+        Working as an engineer for Bugscout in its main product: a static code analyzer to be used in secure software development cycle/SecDevOps adapted to the main security software standards (OWASP, PCI, CWE, etc).
         
       highlights:
         - title: "Technologies" 
           items:
-            - name: Jenkins, Maven and Sonarqube plugins development
-            - name: Java, Spring, ActiveMQ, Elasticsearch
+            - name: Jenkins, Maven, Javac and Sonarqube plugins development
+            - name: Java, Springboot, SpringData, SpringShell
+            - name: ActiveMQ, Kafka, Elasticsearch
             - name: Java and .NET low-level structures
             - name: Java and .NET code instrumentation
             - name: AST handling
@@ -21,10 +22,12 @@ en:
             - name: Development of TestAdapters (.NET)
             - name: Development of JavaAgents (JVM)
             - name: Development of Java x SAP integrations
-            - name: Docker, Docker-Compose, TestContainers
+            - name: Kubernetes, Docker, Docker-Compose, TestContainers
+            - name: GCoud, AWS
+            - name: JUnit, Mockito
             - name: Swagger, REST API, JWT
-            - name: Ansible, Packer, Vagrant
-            - name: Linux Debian
+            - name: Ansible, Packer
+            - name: Linux Debian, Bash scripting
 
     - role: Senior Developer
       time: 02/2016 - 07/2018
@@ -32,7 +35,7 @@ en:
       company: BNP Paribas Cardif
       logo: cardif.jpeg
       details: |
-        I was involved in the development of new features and support of the main systems of the insurer, such as the systems responsible for the management and automation of claims handling, integrations of the insurer with partners, etc.
+        Development of new features and support of the main systems of the insurer, such as the systems responsible for the management and automation of claims handling, integrations between the insurer and partners, among other features.
         
       highlights:
         - title: "Technologies" 
@@ -41,9 +44,10 @@ en:
             - name: Hibernate
             - name: JBoss
             - name: Quartz
+            - name: JPA
             - name: Spring-Batch
             - name: Sql Server
-            - name: Angular
+            - name: Angular 4
             - name: JSF Primefaces
 
 
