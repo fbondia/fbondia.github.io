@@ -2,7 +2,7 @@ en:
   title: Skills &amp; Proficiency
   categories:
 
-    - name: General development
+    - name: Development Achievements
       toolset:
         - name: End-to-end software development
           level: 100%
@@ -18,14 +18,36 @@ en:
           level: 80%
         - name: Mobile development (Ionic, React-Native)
           level: 80%
+        - name: Low-Level Code Analysis
+          level: 50%
+        - name: Secure Coding Standards
+          level: 50%
+        - name: Reactive Systems / Reactive Programming
+          level: 50%
+        - name: Event Driven Architecture
+          level: 50%
+        - name: Microservice
+          level: 50%
+        - name: Sonarqube plugin development
+          level: 100%
+        - name: Jenkins plugin development
+          level: 60%
+        - name: JVM Agents development
+          level: 80%
+        - name: .NET Test Adapters development
+          level: 80%
 
     - name: Development Technologies
       toolset:
         - name: Java
           level: 100%
-        - name: Springboot/Spring Framework
-          level: 100%
+        - name: .NET / C#
+          level: 80%
+        - name: Python
+          level: 60%
         - name: Maven
+          level: 100%
+        - name: Spring Framework
           level: 100%
         - name: Hibernate
           level: 80%
@@ -35,11 +57,11 @@ en:
           level: 50%
         - name: ActiveMQ
           level: 80%
-        - name: Python
-          level: 60%
 
     - name: Mobile Development	
       toolset:
+        - name: Android Native Development
+          level: 50%
         - name: Ionic
           level: 100%
         - name: Cordova
@@ -80,8 +102,6 @@ en:
 
     - name: Testing	
       toolset:
-        - name: jUnit
-          level: 80%
         - name: jMeter
           level: 80%
         - name: TestContainers
