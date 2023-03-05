@@ -19,7 +19,7 @@ en:
         - name: Mobile development (Ionic, React-Native)
           level: 80%
 
-    - name: Development Technologies
+    - name: Backend Technologies
       toolset:
         - name: Java
           level: 100%
@@ -36,6 +36,8 @@ en:
         - name: ActiveMQ
           level: 80%
         - name: Python
+          level: 60%
+        - name: .NET / C#
           level: 60%
 
     - name: Mobile Development	
