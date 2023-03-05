@@ -12,9 +12,11 @@ en:
       highlights:
         - title: "Technologies" 
           items:
-            - name: Jenkins, Maven, Javac and Sonarqube plugins development
             - name: Java, Springboot, SpringData, SpringShell
             - name: ActiveMQ, Kafka, Elasticsearch
+            - name: Swagger, REST API, GraphQL API, JWT
+            - name: React, Material UI
+            - name: Jenkins, Maven, Javac and Sonarqube plugins development
             - name: Java and .NET low-level structures
             - name: Java and .NET code instrumentation
             - name: AST handling
@@ -25,7 +27,6 @@ en:
             - name: Kubernetes, Docker, Docker-Compose, TestContainers
             - name: GCoud, AWS
             - name: JUnit, Mockito
-            - name: Swagger, REST API, JWT
             - name: Ansible, Packer
             - name: Linux Debian, Bash scripting
 

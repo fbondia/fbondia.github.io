@@ -82,7 +82,7 @@ en:
 
     - name: Testing	
       toolset:
-        - name: jUnit
+        - name: JUnit
           level: 80%
         - name: jMeter
           level: 80%
