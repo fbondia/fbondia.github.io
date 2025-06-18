@@ -14,9 +14,9 @@ en:
           level: 60%
         - name: Backend development (Java, Springboot)
           level: 100%
-        - name: Web development (AngularJS, Angular, React)
+        - name: Web development (React, AngularJS, Angular)
           level: 80%
-        - name: Mobile development (Ionic, React-Native)
+        - name: Mobile development (React-Native, Ionic)
           level: 80%
         - name: Low-Level Code Analysis
           level: 50%
@@ -45,6 +45,8 @@ en:
           level: 80%
         - name: Python
           level: 60%
+        - name: Node
+          level: 70%
         - name: Maven
           level: 100%
         - name: Spring Framework
@@ -60,19 +62,19 @@ en:
 
     - name: Mobile Development	
       toolset:
+        - name: React-Native
+          level: 80%
         - name: Android Native Development
           level: 50%
         - name: Ionic
           level: 100%
         - name: Cordova
           level: 80%
-        - name: React-Native
-          level: 40%
 
     - name: Frontend Development	
       toolset:
-        - name: React
-          level: 40%
+        - name: React.js
+          level: 80%
         - name: Angular
           level: 60%
         - name: AngularJS
@@ -178,6 +180,8 @@ pt:
           level: 80%
         - name: Python
           level: 60%
+        - name: Node
+          level: 70%
         - name: Maven
           level: 100%
         - name: Spring
@@ -204,19 +208,23 @@ pt:
 
     - name: Denvolvimento Mobile
       toolset:
+        - name: React-Native
+          level: 80%
         - name: Android Native Development
           level: 60%
         - name: Ionic
           level: 100%
         - name: Cordova
           level: 80%
-        - name: React-Native
-          level: 80%
 
     - name: Desenvolvimento Frontend
       toolset:
-        - name: Android Native Development
+        - name: React.js
+          level: 80%
+        - name: Angular
           level: 60%
+        - name: AngularJS
+          level: 100%
         - name: HTML5 & CSS
           level: 80%
         - name: Bootstrap
@@ -225,13 +233,7 @@ pt:
           level: 80%
         - name: JSF Primefaces
           level: 25%
-        - name: Angular
-          level: 60%
-        - name: AngularJS
-          level: 100%
-        - name: React
-          level: 80%
-
+          
     - name: CICD / Infraestrutura
       toolset:
         - name: Jenkins & Groovy

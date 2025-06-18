@@ -1,19 +1,44 @@
 en:
   title: Professional Experience
   roles:
-    - role: Software Engineer
-      time: 08/2018 - Present
-      period: since 2018
+
+    - role: Systems Designer and Developer
+      time: 01/2014 - present (sometimes working part-time)
+      period: 11 yrs 6 mos
+      company: TIM Brasil
+      logo: tim.png
+      details: |
+        Project developed through the consulting firm Nalbatech/Bosonit.
+        
+        Design and development of a web/mobile application for managing preventive maintenance for the company's equipment network.
+        
+        Responsible for the entire application architecture and development, as well as its functional evolution and continuous integration pipelines.
+
+      highlights:
+        - title: "Technologies" 
+          items:
+            - name: React.js, React Native
+            - name: Java, Spring MVC, Hibernate
+            - name: Ionic, Cordova
+            - name: AngularJS, Bootstrap
+            - name: Oracle
+            - name: Linux Redhat and CentOS
+            - name: Jenkins
+            - name: JMeter
+
+    - role: Senior Software Engineer
+      time: 08/2018 - 09/2024
+      period: 6 yrs 2 mos
       company: Bugscout Inc.
       logo: bugscout.jpeg
       details: |
-        Working as an engineer for Bugscout in its main product: a static code analyzer to be used in secure software development cycle/SecDevOps adapted to the main security software standards (OWASP, PCI, CWE, etc).
+        Worked as a senior developer on a static code analysis system focused on information security (OWASP, CWE, PCI), integrating tools such as Jenkins, Maven, SonarQube, SAP, and Docker. Developed components in Java and Spring Boot, and worked with bytecode instrumentation, JavaAgents, and .NET TestAdapters. Also responsible for documentation, packaging, and redesigning the product's front end.
         
       highlights:
         - title: "Technologies" 
           items:
             - name: Java, Springboot, SpringData, SpringShell
-            - name: ActiveMQ, Kafka, Elasticsearch
+            - name: ActiveMQ, Kafka, Elasticsearch, Neo4J
             - name: Swagger, REST API, GraphQL API, JWT
             - name: React, Material UI
             - name: Jenkins, Maven, Javac and Sonarqube plugins development
@@ -25,7 +50,7 @@ en:
             - name: Development of JavaAgents (JVM)
             - name: Development of Java x SAP integrations
             - name: Kubernetes, Docker, Docker-Compose, TestContainers
-            - name: GCoud, AWS
+            - name: GCloud, AWS
             - name: JUnit, Mockito
             - name: Ansible, Packer
             - name: Linux Debian, Bash scripting
@@ -36,7 +61,7 @@ en:
       company: BNP Paribas Cardif
       logo: cardif.jpeg
       details: |
-        Development of new features and support of the main systems of the insurer, such as the systems responsible for the management and automation of claims handling, integrations between the insurer and partners, among other features.
+        Participated in the development of new features and maintenance of the company’s core systems, such as those responsible for claims management automation and insurer-partner integrations.
         
       highlights:
         - title: "Technologies" 
@@ -51,34 +76,15 @@ en:
             - name: Angular 4
             - name: JSF Primefaces
 
-
-    - role: Senior Software Developer
-      time: 06/2014 - 02/2016
-      period: 1 yrs 8 mos
-      company: TIM Brasil
-      logo: tim.png
-      details: |
-        I was responsible for the design, development and maintenance of a web/mobile application to manage the preventive maintenance process of the company's equipment network.
-
-      highlights:
-        - title: "Technologies" 
-          items:
-            - name: Ionic, Cordova
-            - name: AngularJS, Bootstrap
-            - name: Java, Spring MVC, Hibernate
-            - name: Oracle
-            - name: Linux Redhat and CentOS
-            - name: Jenkins
-            - name: JMeter
-
-
     - role: Senior Software Developer
       company: Schneider Electric
       logo: schneider.png
-      time: 01/2014 - 06/2014
+      time: 01/2014 - 02/2016
       period: 1 yrs 7 mos
       details: |
-        I was responsible for the design, development and deployment of a tool for calculating commissions for company sales representatives.
+        Project developed through the consulting firm Nalbatech.
+        
+        Worked on the development of a tool for calculating sales representative commissions.
         
       highlights:
         - title: "Technologies" 
@@ -96,9 +102,9 @@ en:
       time: 06/2013 - 01/2014
       period: 8 mos
       details: |
-        I was hired at Cielo for the position of Systems Specialist, where I worked in the area of ​​Low Platform Systems Support. In this position, my role was to manage incidents, problems, requests and improvements in a group of 35 applications, which included critical systems, such as the system responsible for transmitting payment schedules to partner banks and the system responsible for performing batch transactions (EDI).
-        
-        In addition to incident management, I also managed the software factories and performed the entire interface between the technical team and the company's internal areas, such as Architecture, Approval, Infrastructure and Change Management.
+        Hired by Cielo as a Systems Specialist, working in the Low Platform Systems Support area. My role involved managing incidents, problems, requests, and improvements across a group of 35 company applications, including critical systems such as the one responsible for sending payment schedules to partner banks and batch transaction processing (EDI).
+
+        In addition to incident management, I oversaw software development vendors and served as a liaison between the technical team and internal departments such as Architecture, Testing, Infrastructure, and Change Management.
         
       highlights:
         - title: "Technologies and Methodologies" 
@@ -120,7 +126,7 @@ en:
       time: 01/2013 - 06/2013
       period: 6 mos
       details: |
-        After a period of service for another company, I returned to Cielo to work in the support cell provided by H2M. After a few months I was hired by Cielo, where I stayed until 01/2014.
+        After a period working for another company, I returned to Cielo to work in the support cell provided by H2M. A few months later, I was hired directly by Cielo, where I remained until January 2014.
 
       highlights:
         - title: "Technologies" 
@@ -136,9 +142,9 @@ en:
       time: 08/2006 - 05/2013
       period: 6 yrs 10 mos
       details: |
-        <i>I provided services to H2M from 08/2006 to 06/2013. At H2M I was involved in several projects and in several clients of the company, being that in some situations I worked allocated in the clients and in others I worked in the software factory, where I performed the role of technical leadership.</i>
+        <i>Worked for H2M from 08/2006 to 06/2013. Participated in various projects for multiple clients, sometimes working on-site and other times in the software factory, where I also performed technical leadership roles.</i>
         
-        <i>Below are the projects I've been involved in, from newest to oldest.</i>
+        <i>Below are the projects I was involved in, listed from most to least recent:</i>
 
 
     - role: Systems Analyst
@@ -147,7 +153,7 @@ en:
       time: 10/2012 - 01/2013
       period: 4 mos
       details: |
-        Atech (currently called Ezute) is a Brazilian organization focused on the development and application of critical technologies. I provided services to the foundation through H2M, participating in the design of a grant request system for the use of water resources. The big learning in this project was the use of geospatial manipulation APIs (OpenLayers, OpenStreet, LeafLet).
+        Fundação Atech (now Ezute) is a Brazilian organization focused on developing and applying critical technologies. Worked through H2M on a system for managing water resource usage requests. A major takeaway from this project was learning to work with geospatial APIs (OpenLayers, OpenStreet, Leaflet).
 
       highlights:
         - title: "Technologies" 
@@ -161,15 +167,15 @@ en:
             - name: LeafLet
             - name: Outsystems
 
-    - role: Technical leader
+    - role: Technical Lead
       company: Cielo
       logo: cielo.png
       time: 11/2009 - 09/2012
-      period: 2 yrs 11 mos
+      period: 2 yrs 10 mos
       details: |
-        I worked at Cielo acting as a technical leader where I carried out effort assessments, prepared technical proposals, schedules and coordinated the execution of projects, working both in contact with the client and with the internal development team.
+        Projects developed through H2M.
         
-        <i>The services were provided through H2M.</i>
+        Acted as a technical lead at Cielo, estimating efforts, drafting technical proposals and schedules, and coordinating project execution, engaging with both the client and the internal development team.
 
       highlights:
         - title: "Technologies" 
@@ -182,15 +188,15 @@ en:
             - name: Sql Server
             - name: Ms-Project
 
-    - role: Analyst Developer
+    - role: Software Developer Analyst
       company: Merrill Lynch
       logo: merrill-lynch.jpeg
       time: 11/2007 - 11/2009
       period: 2 yrs 1 mos
       details: |
-        I did the analysis and development of the system used by the Back and Front-Office in order to control the company's stock portfolio and its loans with other brokers.
+        Designed and developed a system used by both the Back and Front Office to manage the company's stock portfolio and lending operations with other brokerages.
         
-        <i>The services were provided through H2M.</i>
+        Worked through H2M.
 
       highlights:
         - title: "Technologies" 
@@ -208,9 +214,9 @@ en:
       time: 11/2008 - 01/2009
       period: 3 mos
       details: |
-        I worked at C&A coordinating the development of a system to manage the delivery and withdrawal of change at C&A stores in Brazil, Argentina and Mexico.
-
-        <i>The services were provided through H2M.</i>
+        Project developed through H2M.
+        
+        Coordinated the development of a system for managing the delivery and collection of change (cash) at C&A stores in Brazil, Argentina, and Mexico.
         
       highlights:
         - title: "Technologies" 
@@ -219,15 +225,15 @@ en:
             - name: C#
             - name: DB2
 
-    - role: Analyst developer
+    - role: Software Developer Analyst
       company: Banco Espirito Santo
       logo: bes.png
       time: 10/2008 - 11/2008
       period: 2 mos
       details: |
-        <i>One-off project through H2M.</i>
+        One-off project through H2M.
         
-        I designed and developed a system to import different data sources (Excel, Text, CSV, OleDB) and compare them, thus optimizing the routine beat and conference processes.
+        Developed a system to import data from various sources (Excel, Text, CSV, OleDB) and perform comparisons, thereby optimizing routine reconciliation processes.
 
       highlights:
         - title: "Technologies" 
@@ -248,17 +254,15 @@ en:
       time: 09/2007 - 11/2007
       period: 3 mos
       details: |
-        Book publisher specializing in languages. I provided punctual analysis services for the company, mapping the logistics process and collaborating to develop an automated model.
+        SBS is a language-focused book publisher. Provided consulting services through H2M, mapping their logistics process and contributing to the creation of an automated model.
         
-        <i>The services were provided through H2M.</i>
-        
-    - role: Analyst Developer
+    - role: Software Developer Analyst
       company: Drogacenter
       logo: drogacenter.jpeg
       time: 08/2006 - 11/2007
       period: 1 yrs 4 mos
       details: |
-        I provided services to Drogacenter through H2M, developing an electronic order manager responsible for monitoring and integrating orders sent by mobile devices into their ERP.
+        Provided services through H2M, developing an electronic order manager that monitored and integrated mobile-submitted orders into the ERP system.
         
       highlights:
         - title: "Technologies" 
@@ -269,12 +273,12 @@ en:
             - name: XML
 
 
-    - role: Developer
+    - role: Software Developer Analyst
       company: NationSoft
       time: 07/2006 - 10/2007
       period: 1 yrs 4 mos
       details: |
-        I worked for about a year and a half at Nationsoft in the development of its products, such as Performance Management Systems, Timesheet Control, Data Integration Tools, Curriculum Database, among other projects.
+        Worked for approximately a year and a half developing various internal products, such as performance management systems, timesheet systems, data integration tools, résumé databases, among others.
         
       highlights:
         - title: "Technologies" 
@@ -288,17 +292,13 @@ en:
             - name: C#
             - name: Sql Server
 
-
-
     - role: Developer
       company: Hewlett-Packard
       logo: hp.png
       time: 02/2002 - 07/2006
       period: 4 yrs 6 mos
       details: |
-        I worked on the development of applications to support HP's Human Resources processes.
-        
-        During this period I collaborated for the development of the sector's Intranet, creating self-service applications for employees.        
+        Developed applications to support HR processes at HP. Contributed to the department’s intranet, creating self-service tools for employees.
 
       highlights:
         - title: "Technologies" 
@@ -320,9 +320,9 @@ en:
       time: 10/1996 - 02/2002
       period: 5 yrs 5 mos
       details: |
-        For six years I worked in the administrative area of ​​Human Resources - Personnel Administration, where I was responsible for the operational flow of admission of employees and interns.
+        Worked for almost six years in the Human Resources administrative area – Personnel Administration – responsible for onboarding processes for employees and interns.
         
-        Although in an administrative area, during this period I developed several tools to optimize the work. Then I was called to work in the IT area responsible for technology in Human Resources.
+        Despite being in an administrative area, I developed several tools to optimize tasks. Eventually, I was invited to join the IT department responsible for HR technology.
 
       highlights:
         - title: "Technologies" 
@@ -337,276 +337,335 @@ en:
 
 
 pt:
-  title: Experiências Profissionais
+  title: Experiência Profissional
   roles:
-    - role: Engenheiro de Software Senrior
-      time: 08/2018 - Atual
-      company: Bugscout Inc.
-      details: |
-        Trabalhando como engenheiro de software senior para Bugscout e seu principal produto: um analisador estático de código designado para ser parte do ciclo de desenvolvimento seguro (SecDevOps) e adaptador para os maiores padrões de segurança de software (OWASP, PCI, CWE, etc).
 
-        Nesta função estive trabalhando em várias tecnologias e desafios, tais como:
-        
-          - Desenvolvimento de plugins para Jenkins, Maven e Sonarqube; 
-          - Desenvolvimento de componentes de software utilizando Java, Springboot, ActiveMQ, Elasticsearch; 
-          - Trabalhando com estruturas de baixo nível para Java e .NET, instrumentalizando código, manipulando AST, bytecode/IL e criando e explorando a construção de TestAdapters (.NET) e JavaAgents (JVM); 
-          - Desenvolvimento de integrações Java x SAP;
-          - Dockerização de componentes;
-          - Produção de documentação para API utilizando Swagger;
-          - Geração de vários tipos de componentes através de um uso avançado de Maven.
-
-
-    - role: Analista Desenvolvedor
-      time: 02/2016 - 07/2018
-      company: BNP Paribas Cardif
-      details: |
-        Estive envolvido no desenvolvimento de novos recursos e sustentação dos principais sistemas da seguradora, tais como os sistemas responsáveis pelo gerenciamento e automações de tratamento de sinistro, integrações da seguradora com parceiros, etc.
-        
-        Tecnologias utilizadas no período:
-          - Java
-          - Hibernate
-          - JBoss
-          - Quartz
-          - Spring-Batch
-          - Sql Server
-          - Angular
-          - JSF Primefaces
-
-
-    - role: Head of Development
-      time: 06/2014 - 02/2016
+    - role: Arquiteto e Desenvolvedor de Sistemas
+      time: 01/2014 - presente (às vezes em tempo parcial)
+      period: 11 anos e 6 meses
       company: TIM Brasil
+      logo: tim.png
       details: |
-        Trabalho desenvolvido através da consultoria Nalbatech.
+        Projeto desenvolvido por meio da consultoria Nalbatech/Bosonit.
+        
+        Concepção e desenvolvimento de uma aplicação web/mobile para gestão de manutenções preventivas na rede de equipamentos da empresa.
+        
+        Responsável por toda a arquitetura e desenvolvimento da aplicação, bem como sua evolução funcional e os pipelines de integração contínua.
 
-        Tratou-se do desenvolvimento de aplicação web/mobile para a gestão da realização de Manutenção Preventiva para a rede de equipamentos da companhia.
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: React.js, React Native
+            - name: Java, Spring MVC, Hibernate
+            - name: Ionic, Cordova
+            - name: AngularJS, Bootstrap
+            - name: Oracle
+            - name: Linux Redhat e CentOS
+            - name: Jenkins
+            - name: JMeter
 
-        Tecnologias utilizadas:
-        Tecnologias mobile: Ionic, Cordova
-        Tecnologias web: AngularJS, Bootstrap
-        Tecnologias Backend: Java, Spring MVC, Hibernate, Oracle
-        Outras tecnologias: Linux Redhat e CentOS, Jenkins, JMeter
+    - role: Engenheiro de Software Sênior
+      time: 08/2018 - 09/2024
+      period: 6 anos e 2 meses
+      company: Bugscout Inc.
+      logo: bugscout.jpeg
+      details: |
+        Atuação como desenvolvedor sênior em um sistema de análise estática de código com foco em segurança da informação (OWASP, CWE, PCI), integrando ferramentas como Jenkins, Maven, SonarQube, SAP e Docker. Desenvolvimento de componentes em Java e Spring Boot, com trabalho em instrumentação de bytecode, JavaAgents e TestAdapters para .NET. Também responsável por documentação, empacotamento e redesenho do front-end do produto.
 
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: Java, Springboot, SpringData, SpringShell
+            - name: ActiveMQ, Kafka, Elasticsearch, Neo4J
+            - name: Swagger, REST API, GraphQL API, JWT
+            - name: React, Material UI
+            - name: Jenkins, Maven, desenvolvimento de plugins Javac e Sonarqube
+            - name: Estruturas de baixo nível em Java e .NET
+            - name: Instrumentação de código Java e .NET
+            - name: Manipulação de AST
+            - name: Manipulação de Bytecode/IL
+            - name: Desenvolvimento de TestAdapters (.NET)
+            - name: Desenvolvimento de JavaAgents (JVM)
+            - name: Integrações Java x SAP
+            - name: Kubernetes, Docker, Docker-Compose, TestContainers
+            - name: GCloud, AWS
+            - name: JUnit, Mockito
+            - name: Ansible, Packer
+            - name: Linux Debian, scripts em Bash
 
-    - role: Engenheiro de Software
+    - role: Desenvolvedor Sênior
+      time: 02/2016 - 07/2018
+      period: 2 anos e 6 meses
+      company: BNP Paribas Cardif
+      logo: cardif.jpeg
+      details: |
+        Participação no desenvolvimento de novas funcionalidades e sustentação dos sistemas principais da seguradora, como os responsáveis por automação de sinistros e integrações com parceiros.
+
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: Java
+            - name: Hibernate
+            - name: JBoss
+            - name: Quartz
+            - name: JPA
+            - name: Spring-Batch
+            - name: SQL Server
+            - name: Angular 4
+            - name: JSF Primefaces
+
+    - role: Desenvolvedor de Software Sênior
       company: Schneider Electric
-      time: 01/2014 - 06/2014
+      logo: schneider.png
+      time: 01/2014 - 02/2016
+      period: 2 anos e 2 meses
       details: |
-        Trabalho desenvolvido através da consultoria Nalbatech.
+        Projeto desenvolvido por meio da consultoria Nalbatech.
         
-        O projeto tratou-se de um desenvolvimento de uma ferramenta para realização de cálculo de comissões de representantes de vendas da companhia.
-        
-        Tecnologias utilizadas:
-          - .NET 
-          - C# MVC
-          - Oracle
-          - jQuery
-          - Bootstrap
+        Desenvolvimento de uma ferramenta para cálculo de comissões de representantes comerciais.
 
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: .NET
+            - name: C#
+            - name: MVC
+            - name: Oracle
+            - name: jQuery
+            - name: Bootstrap
 
     - role: Especialista de Sistemas
       company: Cielo
+      logo: cielo.png
       time: 06/2013 - 01/2014
+      period: 8 meses
       details: |
-        Fui contratado na Cielo para a posição de Especialista de Sistemas, onde atuei na área de Sustentação de Sistemas de Baixa Plataforma. Nesta função meu papel era fazer a gestão dos incidentes, problemas, solicitações e melhorias em um grupo de 35 aplicações da empresa, dentre as quais constavam sistemas críticos, tais como o sistema responsável pela transmissão das grades de pagamentos aos bancos parceiros e o sistema responsável por realizar transações em lote (EDI).
-        
-        Além da gestão dos incidentes, fazia ainda a gestão das fábricas de software e realizava toda a interface entre a equipe técnica e as áreas internas da companhia, tais como Arquitetura, Homologação, Infraestrutura e Gestão de Mudanças.
-        
-        Tecnologias e metodologias aplicadas neste período:
-          - Itil v3
-          - TN3270E
-          - VB6
-          - ASP.NET
-          - Java + Spring MVC
-          - C++
-          - Linux
-          - Sql Server
-          - Oracle
-          - SVN
-        
+        Contratado pela Cielo como Especialista de Sistemas, atuando na área de Suporte a Sistemas de Baixa Plataforma. Responsável pela gestão de incidentes, problemas, solicitações e melhorias em 35 aplicações, incluindo sistemas críticos como o de envio de grades de pagamento aos bancos e de processamento de transações em lote (EDI).
+
+        Também atuei na gestão de fornecedores de software e como elo entre a equipe técnica e áreas como Arquitetura, Homologação, Infraestrutura e Gestão de Mudanças.
+
+      highlights:
+        - title: "Tecnologias e Metodologias"
+          items:
+            - name: ITIL v3
+            - name: TN3270E
+            - name: VB6
+            - name: ASP.NET
+            - name: Java + Spring MVC
+            - name: C++
+            - name: Linux
+            - name: SQL Server
+            - name: Oracle
+            - name: SVN
+
     - role: Líder Técnico
       company: Cielo
+      logo: cielo.png
       time: 01/2013 - 06/2013
+      period: 6 meses
       details: |
-        Após um período prestando serviços para outra empresa, retornei à Cielo para trabalhar na célula de sustentação fornecida pela H2M. Após alguns meses fui contratado pela Cielo, onde fiquei até 01/2014.
+        Após um período atuando em outra empresa, retornei à Cielo para trabalhar na célula de sustentação fornecida pela H2M. Poucos meses depois, fui contratado diretamente pela Cielo, onde permaneci até janeiro de 2014.
 
-        Tecnologias utilizadas:
-          - VB6
-          - ASP.NET
-          - Java
-          - Sql Server
-          - Oracle
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: VB6
+            - name: ASP.NET
+            - name: Java
+            - name: SQL Server
+            - name: Oracle
 
-
-    - role: Software Development Consultant
+    - role: Consultor
       company: Consultoria H2M
       time: 08/2006 - 05/2013
+      period: 6 anos e 10 meses
       details: |
-        Prestei serviços para a H2M no período de 08/2006 até 06/2013. Na H2M estive envolvido em diversos projetos e em diversos clientes da empresa, sendo que em algumas situações trabalhava alocado nos clientes e em outras trabalhava na fábrica de software, onde realizava a função de liderança técnica.
-        
-        Abaixo estão os projetos em que estive envolvido, do mais recente para o mais antigo. 
+        <i>Atuei na H2M de agosto de 2006 a maio de 2013. Participei de diversos projetos para múltiplos clientes, trabalhando tanto alocado quanto na fábrica de software, onde também exerci papéis de liderança técnica.</i>
 
+        <i>Abaixo estão os projetos em que atuei, do mais recente para o mais antigo:</i>
 
     - role: Analista de Sistemas
       company: Fundação Ezute
+      logo: ezute.png
       time: 10/2012 - 01/2013
+      period: 4 meses
       details: |
-        A Fundação Atech (atualmente chamada Ezute) é uma organização brasileira voltada para o desenvolvimento e aplicação de tecnologias críticas. Prestei serviços para a fundação através da H2M, participando da concepção de um sistema de requisições de outorga para utilização de recursos hídricos. O grande aprendizado neste projeto foi a utilização de APIs de manipulação geospacial (OpenLayers, OpenStreet, LeafLet).
+        A Fundação Atech (atualmente Ezute) é uma organização brasileira voltada ao desenvolvimento e aplicação de tecnologias críticas. Atuei por meio da H2M no desenvolvimento de um sistema para requisições de outorga de uso de recursos hídricos. Um dos principais aprendizados nesse projeto foi o uso de APIs de geolocalização (OpenLayers, OpenStreet, Leaflet).
 
-        Tecnologias utilizadas no período:
-          - C#
-          - MVC
-          - Sql Server
-          - Entity Framework
-          - OpenStreet
-          - OpenLayers
-          - LeafLet
-          - Outsystems
-
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: C#
+            - name: MVC
+            - name: SQL Server
+            - name: Entity Framework
+            - name: OpenStreet
+            - name: OpenLayers
+            - name: Leaflet
+            - name: Outsystems
 
     - role: Líder Técnico
       company: Cielo
+      logo: cielo.png
       time: 11/2009 - 09/2012
+      period: 2 anos e 10 meses
       details: |
-        Trabalhos desenvolvidos através da consultoria H2M.
-        
-        Trabalhei na Cielo atuando como líder técnico onde realizava os levantamentos de esforço, elaborava propostas técnicas, cronogramas e coordenava a execução dos projetos, atuando tanto em contato com o cliente quanto com a equipe interna de desenvolvimento.
-        
-        Tecnologias utilizadas no período:
-          - ASP.NET
-          - C#
-          - Java
-          - VB6
-          - Oracle
-          - Sql Server
-          - Ms-Project 
+        Projetos desenvolvidos por meio da H2M.
 
+        Atuei como líder técnico na Cielo, sendo responsável por estimativas de esforço, elaboração de propostas técnicas e cronogramas, além da coordenação da execução dos projetos, com contato direto com o cliente e a equipe interna.
+
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: ASP.NET
+            - name: C#
+            - name: Java
+            - name: VB6
+            - name: Oracle
+            - name: SQL Server
+            - name: MS Project
 
     - role: Analista Desenvolvedor
       company: Merrill Lynch
+      logo: merrill-lynch.jpeg
       time: 11/2007 - 11/2009
+      period: 2 anos e 1 mês
       details: |
-        Fiz a análise e o desenvolvimento do sistema utilizado pelo Back e Front-Office com objetivo de controlar a carteira de ações da empresa e seus empréstimos junto a outras corretoras.
-        
-        Prestei serviços através da consultoria H2M.
-        
-        Tecnologias utilizadas neste período:
-          - ASP.NET
-          - MS-AJAX
-          - XML
-          - C#
-          - Sql Server
-          - Windows Services
+        Concepção e desenvolvimento de sistema utilizado pelas áreas de Back e Front Office para gerenciamento da carteira de ações da empresa e seus empréstimos junto a outras corretoras.
+
+        Projeto realizado por meio da H2M.
+
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: ASP.NET
+            - name: MS-AJAX
+            - name: XML
+            - name: C#
+            - name: SQL Server
+            - name: Windows Services
 
     - role: Coordenador de Equipe
       company: C&A
+      logo: ca.jpeg
       time: 11/2008 - 01/2009
+      period: 3 meses
       details: |
-        Trabalho desenvolvido através da consultoria H2M.
-        
-        Trabalhei na C&A coordenando o desenvolvimento de um sistema para gerenciar a entrega e retirada de troco nas lojas da C&A no Brasil, Argentina e México.
-        
-        Tecnologias utilizadas no período:
-        
-          - ASP.NET
-          - C#
-          - DB2 
+        Projeto desenvolvido por meio da H2M.
+
+        Coordenei o desenvolvimento de um sistema para gerenciar a entrega e retirada de troco nas lojas da C&A no Brasil, Argentina e México.
+
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: ASP.NET
+            - name: C#
+            - name: DB2
 
     - role: Analista Desenvolvedor
-      company: Banco Espirito Santo
+      company: Banco Espírito Santo
+      logo: bes.png
       time: 10/2008 - 11/2008
+      period: 2 meses
       details: |
-        Projeto pontual através da H2M.
-        
-        Fiz a elaboração e desenvolvimento de um sistema para importar fontes de dados diversas (Excel, Texto, CSV, OleDB) e compará-las, otimizando assim os processos rotineiros de batimento e conferência.
+        Projeto pontual por meio da H2M.
 
-        Tecnologias utilizadas neste período:
-          - AJAX
-          - YUI
-          - DHTML
-          - ASP.NET
-          - XML
-          - C#
-          - Sql Server
-          - Windows Services
-          - Windows Forms 
+        Desenvolvimento de sistema para importação de dados de diversas fontes (Excel, Texto, CSV, OleDB) e realização de comparações, otimizando os processos rotineiros de batimento e conferência.
+
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: AJAX
+            - name: YUI
+            - name: DHTML
+            - name: ASP.NET
+            - name: XML
+            - name: C#
+            - name: SQL Server
+            - name: Windows Services
+            - name: Windows Forms
 
     - role: Analista de Sistemas
       company: Editora SBS
+      logo: sbs.png
       time: 09/2007 - 11/2007
+      period: 3 meses
       details: |
-        Editora de livros especializada em idiomas. Prestei serviços pontuais de análise para a empresa, mapeando o processo de logística e colaborando para elaboração de um modelo automatizado.
-        
-        Os serviços foram prestados através da consultoria H2M.Editora de livros especializada em idiomas. Prestei serviços pontuais de análise para a empresa, mapeando o processo de logística e colaborando para elaboração de um modelo automatizado. Os serviços foram prestados através da consultoria H2M.
-        
+        A SBS é uma editora especializada em idiomas. Atuei como consultor pela H2M, mapeando o processo logístico e colaborando na criação de um modelo automatizado.
+
     - role: Analista Desenvolvedor
       company: Drogacenter
+      logo: drogacenter.jpeg
       time: 08/2006 - 11/2007
+      period: 1 ano e 4 meses
       details: |
-        Prestei serviços para a Drogacenter através da H2M, desenvolvendo um gerenciador de pedidos eletrônicos responsável por monitorar e integrar ao ERP os pedidos enviados por dispositivos móveis.
-        
-        Tecnologias utilizadas neste período:
-          - C#
-          - Windows Services
-          - Windows Forms
-          - XML
+        Atuei na H2M desenvolvendo um gerenciador de pedidos eletrônicos responsável por monitorar e integrar ao ERP os pedidos enviados via dispositivos móveis.
 
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: C#
+            - name: Windows Services
+            - name: Windows Forms
+            - name: XML
 
     - role: Analista Desenvolvedor
       company: NationSoft
       time: 07/2006 - 10/2007
+      period: 1 ano e 4 meses
       details: |
-        Trabalhei cerca de um ano e meio na empresa no desenvolvimento de seus produtos, tais como Sistemas de Gestão de Desempenho, Controle de Horas Trabalhadas (Timesheet), Integração de Dados entre Sistemas, Banco de Dados de Currículo, entre outros projetos.
-        
-        Tecnologias utilizadas neste período:
-          - AJAX
-          - YUI
-          - DHTML
-          - ASP.NET
-          - Web Services
-          - XML
-          - C#
-          - Sql Server
+        Atuei no desenvolvimento de diversos produtos internos da empresa, como sistemas de gestão de desempenho, controle de horas (timesheet), integração de dados entre sistemas e banco de dados de currículos, entre outros.
 
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: AJAX
+            - name: YUI
+            - name: DHTML
+            - name: ASP.NET
+            - name: Web Services
+            - name: XML
+            - name: C#
+            - name: SQL Server
 
-
-    - role: Programador
+    - role: Desenvolvedor
       company: Hewlett-Packard
+      logo: hp.png
       time: 02/2002 - 07/2006
+      period: 4 anos e 6 meses
       details: |
-        Trabalhei no desenvolvimento de aplicações para apoiar os processos de Recursos Humanos da HP.
-        
-        Neste período colaborei para o desenvolvimento da Intranet do setor, criando auto-serviços para os funcionários.
-        
-        Tecnologias utilizadas no período:
-        
-          - ASP.NET
-          - C#
-          - XML
-          - ASP
-          - DHTML (JavaScript, Html, CSS)
-          - VB 6.0
-          - VBA
-          - Oracle
-          - PL/SQL
+        Desenvolvimento de aplicações para apoiar os processos de Recursos Humanos da HP. Contribuí para o desenvolvimento da intranet do setor, criando serviços de autoatendimento para funcionários.
 
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: ASP.NET
+            - name: C#
+            - name: XML
+            - name: ASP
+            - name: DHTML (JavaScript, HTML, CSS)
+            - name: VB 6.0
+            - name: VBA
+            - name: Oracle
+            - name: PL/SQL
 
     - role: Assistente Administrativo
       company: Hewlett-Packard
+      logo: hp.png
       time: 10/1996 - 02/2002
+      period: 5 anos e 5 meses
       details: |
-        Durante seis anos trabalhei na área administrativa de Recursos Humanos – Administração de Pessoal, onde era responsável pelo fluxo operacional de admissão de funcionários e estagiários.
-        
-        Ainda que em uma área administrativa, neste período desenvolvi diversas ferramentas para otimizar o trabalho. Depois fui chamado a trabalhar na área de TI responsável por tecnologia em Recursos Humanos
+        Atuei por quase seis anos na área administrativa de Recursos Humanos – Administração de Pessoal – sendo responsável pelo processo de admissão de funcionários e estagiários.
 
-        Tecnologias utilizadas neste período:
-        
-          - MS Access
-          - MS Office
-          - VBA
-          - VB6
-          - Oracle
-          - PeopleSoft 
+        Apesar de atuar numa área administrativa, desenvolvi diversas ferramentas para otimizar o trabalho. Posteriormente, fui convidado a integrar a área de TI responsável pela tecnologia de RH.
 
-
-
+      highlights:
+        - title: "Tecnologias"
+          items:
+            - name: ASP.NET
+            - name: MS Access
+            - name: MS Office
+            - name: VBA
+            - name: VB6
+            - name: Oracle
+            - name: PeopleSoft
