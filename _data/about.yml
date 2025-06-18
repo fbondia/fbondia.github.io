@@ -1,33 +1,43 @@
 en:
   title: About
   summary: |
-    I have been working with software development and architecture for over 20 years, creating solutions with the main technologies for small, medium, large and sometimes especially complex companies in the most diverse segments.
+    I have over 20 years of experience in software development and architecture, building solutions with leading technologies for companies of all sizes — from startups to large corporations, including technically demanding environments.
 
-    My experience with technology is quite varied, and although my focus in the recent years (since 2014) is Java and Springboot development, I also had worked with Microsoft platform (.Net, Sql Server, MVC, etc.) and I've done developments based on AngularJS, React, Python, Oracle, MySql, among other technologies.
+    My experience is broad and covers nearly all phases of the software lifecycle, from initial design and development to deployment, maintenance, and support. Since 2014, my primary focus has been backend development with Java and Spring Boot, but I’ve also worked extensively with React, React Native, .NET, SQL Server, AngularJS, Python, Oracle, MySQL, among others.
 
-    I like to create and design architecture for new software, but I also have a great deal of experience in software maintenance being very pragmatic when necessary, and being able to solve problems in reasonable amount of time. 
+    I’m passionate about solving complex problems, whether by designing new systems from scratch or evolving legacy systems. I value persistence and enjoy exploring unfamiliar technologies, often relying on a mix of patience, curiosity, and intuition to deliver solutions within reasonable timeframes.
 
-    I am very focused, objective, and committed to deadlines and established agreements. Additionally, in my professional experiences, I have always stood out for being able to identify and diagnose problems and errors, whether in code or infrastructure.
+    I currently work with an international team based in Spain, on a technically sophisticated cybersecurity product — an experience that has pushed me to deepen my skills and constantly learn new ones.
 
     <b><em>Highlights</em></b>
 
     <ul>
-      <li>Large experience in software development (+20)</li>
-      <li>End-to-end development skills</li>
-      <li>Knowledge about server administration and establishment of CICD process</li>
-      <li>Cyber security knowledge</li>
-      <li>Commitment and focus on problem solving</li>
+      <li>20+ years of experience in software development</li>
+      <li>End-to-end development expertise (design, build, deploy, support)</li>
+      <li>Strong knowledge of Java, Spring Boot, React, and React Native</li>
+      <li>Experience with CI/CD processes and server infrastructure</li>
+      <li>Cybersecurity awareness</li>
+      <li>Resilience, curiosity, and problem-solving mindset</li>
     </ul>
   
 pt:
   title: Sobre Mim
   summary: |
-    Tenho trabalhado com desenvolvimento e arquitetura de software por mais de 20 anos, criando soluções com as principais tecnologias no mercado. Já trabalhei para empresas dos mais diversos segmentos. Empresas pequenas, médias, grandes e - algumas vezes - empresas especialmente complexas.
+    Trabalho com desenvolvimento e arquitetura de software há mais de 20 anos, construindo soluções com tecnologias de ponta para empresas de todos os tamanhos — de startups a grandes corporações, incluindo ambientes tecnicamente exigentes.
 
-    Minha experiência com tecnologia é bastante variada. Estive envolvido em todas (ou quase todas) as etapas da maior parte dos projetos em que participei, isso é, desde sua concepção/desenho, até sua construção, implantação e suporte. A ideia de estar envolvido em todas as fases de um sofware me atrai bastante.
-    
-    Meu foco atual é desenvolvimento Backend Java, mas já trabalhei com muitas outras tecnologias, tanto no Backend, quanto no Frontend web ou mobile. 
+    Minha experiência é ampla e abrange praticamente todas as fases do ciclo de vida do software: concepção, desenvolvimento, implantação, manutenção e suporte. Desde 2014, meu foco principal tem sido o desenvolvimento backend com Java e Spring Boot, mas também trabalhei extensivamente com React, React Native, .NET, SQL Server, AngularJS, Python, Oracle, MySQL, entre outras tecnologias.
 
-    Acredito ser bastante "valente", explorando assuntos e tecnologias totalmente desconhecidas, e através de persistência, paciência (e talvez alguma intuição), ter sido capaz de entregar as tarefas a mim designadas em períodos aceitáveis de tempo. Os desafios me movem.
+    Sou movido por desafios e gosto de resolver problemas complexos, seja projetando sistemas do zero ou evoluindo sistemas legados. Tenho facilidade para explorar tecnologias desconhecidas, e costumo combinar persistência, curiosidade e intuição para entregar boas soluções em prazos razoáveis.
 
-    Nos últimos anos tenho trabalhado com uma equipe internacional na Espanha, em um produto de Cyber Segurança muito sofisticado técnicamente e que tem me permitido aprimarar o que sei e aprender outras tantas coisas que não sabia.
+    Atualmente, atuo com uma equipe internacional na Espanha, em um produto de cibersegurança tecnicamente sofisticado — uma experiência que tem aprofundado meus conhecimentos e me forçado a aprender constantemente.
+
+    <b><em>Destaques</em></b>
+
+    <ul>
+      <li>Mais de 20 anos de experiência em desenvolvimento de software</li>
+      <li>Atuação em todas as fases do ciclo de desenvolvimento (concepção, construção, implantação, suporte)</li>
+      <li>Sólido conhecimento em Java, Spring Boot, React e React Native</li>
+      <li>Experiência com processos de CI/CD e infraestrutura de servidores</li>
+      <li>Conhecimento em cibersegurança</li>
+      <li>Resiliência, curiosidade e foco em resolução de problemas</li>
+    </ul>
