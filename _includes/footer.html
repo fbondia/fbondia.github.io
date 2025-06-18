@@ -1,8 +1,8 @@
-{% assign experiences = site.data.experience[site.language] %}
-{% assign skills = site.data.skills[site.language] %}
-{% assign publications = site.data.publications[site.language] %}
-{% assign projects = site.data.projects[site.language] %}
-{% assign about = site.data.about[site.language] %}
+{% assign experiences = site.data.experience[site.env.LANG] %}
+{% assign skills = site.data.skills[site.env.LANG] %}
+{% assign publications = site.data.publications[site.env.LANG] %}
+{% assign projects = site.data.projects[site.env.LANG] %}
+{% assign about = site.data.about[site.env.LANG] %}
 
 <footer class="footer">
     <div class="text-center">
