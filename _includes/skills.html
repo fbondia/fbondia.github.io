@@ -1,4 +1,5 @@
-{% assign skills = site.data.skills[site.language] %}
+{% assign lang = page.lang | default: site.language %}
+{% assign skills = site.data.skills[lang] %}
 
 {% if skills %}
 <a name="skills"></a>

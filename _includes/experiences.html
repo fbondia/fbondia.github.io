@@ -1,4 +1,5 @@
-{% assign experiences = site.data.experience[site.language] %}
+{% assign lang = page.lang | default: site.language %}
+{% assign experiences = site.data.experience[lang] %}
 
 {% if experiences %}
 
