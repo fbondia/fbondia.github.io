@@ -1,4 +1,5 @@
-{% assign sidebar = site.data.sidebar[site.language] %}
+{% assign lang = page.lang | default: site.language %}
+{% assign sidebar = site.data.sidebar[lang] %}
 
 <div class="sidebar-wrapper">
 
@@ -19,6 +20,8 @@
   </div><!--//profile-container-->
 
   {% include sidebar/contact.html %}
+
+  {% include sidebar/lang-switcher.html %}
 
   {% include sidebar/language.html %}
 
