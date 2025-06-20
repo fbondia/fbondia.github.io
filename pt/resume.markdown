@@ -1,58 +1,22 @@
 ---
-layout: default
-lang: en
-title: "Resume"
+layout: resume
+lang: pt
 ---
 
-{% assign lang = page.lang | default: site.language %}
+{% include resume-about.html %}
 
-<!-- SOBRE -->
-{% assign about = site.data.about[lang] %}
-{% if about %}
-    ## Sobre
-    {{ about.summary | markdownify }}
-{% endif %}
+<section class="section" style="display: flex;">
 
----
+    <div style='width:48%; margin-right:12px'>
+        {% include resume-language.html %}
+    </div>
 
-<!-- EXPERIÊNCIA -->
-{% assign experiences = site.data.experience[lang] %}
-{% if experiences %}
-    ## Experiência Profissional
-    {% for experience in experiences.roles %}
-        ### {{ experience.role }}
-        **{{ experience.company }}**  
-        🕓 {{ experience.time }} ({{ experience.period }})  
-        {% if experience.details %}
-            {{ experience.details | markdownify }}
-        {% endif %}
+    <div style='width:48%'>
+        {% include resume-education.html %}
+    </div>
 
-        {% if experience.highlights %}
-            {% for highlight in experience.highlights %}
-                **Tecnologias**
-            <ul>
-            {% for item in highlight.items %}
-                <li>{{ item.name }}</li>
-            {% endfor %}
-            </ul>
-            {% endfor %}
-        {% endif %}
+</section>
 
-    {% endfor %}
-{% endif %}
+{% include resume-skills.html %}
 
----
-
-<!-- HABILIDADES -->
-{% assign skills = site.data.skills[lang] %}
-{% if skills %}
-    ## Habilidades
-    {% for category in skills.categories %}
-        ### {{ category.name }}
-        <ul>
-            {% for skill in category.toolset %}
-            <li>{{ skill.name }}</li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
-{% endif %}
+{% include resume-experiences.html %}

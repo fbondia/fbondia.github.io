@@ -1,0 +1,48 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign experiences = site.data.experience[lang] %}
+
+{% if experiences %}
+
+  <section class="section">
+
+    <h2>
+      {{experiences.title}}
+    </h2>
+
+    {% for experience in experiences.roles %}
+      <div class="item" style="border-top:0px; margin-bottom:12px;">
+
+        <div class="job-title">{{ experience.role }}</div>
+        <div class="company">{{ experience.company }} - {{ experience.time }}</div>
+        
+        {% if experience.details %}
+        <div class="details">
+          {{ experience.details | markdownify }}
+
+          {% if experience.highlights %}
+
+            {% for highlight in experience.highlights %}
+
+              <b>{{highlight.title}}</b>
+              <ul>
+                {% for item in highlight.items %}
+                  <li>{{item.name}}</li>
+                {% endfor %}
+              </ul>
+            
+            {% endfor %}
+
+          {% endif %}
+
+        </div><!--//details-->
+        {% endif %}
+
+        <hr/>
+
+      </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+
+  {% endif %}
+

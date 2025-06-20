@@ -1,0 +1,17 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign about = site.data.about[lang] %}
+
+{% if about %}
+
+<section class="section summary-section">
+
+  <h2>
+    {{ about.title }}
+  </h2>
+
+  <div class="summary">
+    {{ about.summary | markdownify }}
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}

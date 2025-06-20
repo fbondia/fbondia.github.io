@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: pt
+lang: en
 title: "Currículo"
 ---
 
