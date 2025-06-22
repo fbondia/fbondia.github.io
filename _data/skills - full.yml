@@ -142,37 +142,35 @@ en:
 
 
 pt:
-  title: Habilidades &amp; Competências
+  title: Habilidades & Competências
   categories:
 
-    - name: Habilidades de Desenvolvimento
+    - name: Arquitetura & Práticas de Desenvolvimento
       toolset:
-        - name: Desenvolvimento de software fim-a-fim (E2E)
+        - name: Ciclo completo de desenvolvimento
           level: 100%
-        - name: Low-Level Code Analysis
+        - name: REST API (desenvolvimento, consumo, documentação Swagger)
           level: 100%
-        - name: Secure Coding Standards
-          level: 100%
-        - name: Reactive Systems / Reactive Programming
+        - name: SOAP Web Services
           level: 60%
-        - name: Event Driven Architecture
-          level: 60%
-        - name: Microservice
-          level: 60%
-        - name: Sonarqube plugin development
+        - name: Padrões de desenvolvimento seguro
           level: 100%
-        - name: Jenkins plugin development
+        - name: Arquitetura orientada a eventos
+          level: 60%
+        - name: Microserviços
+          level: 60%
+        - name: Análise de código de baixo nível (bytecode)
+          level: 100%
+        - name: Desenvolvimento de plugins para SonarQube
+          level: 100%
+        - name: Desenvolvimento de plugins para Jenkins
           level: 80%
-        - name: REST API (develop, consume, swagger generation)
-          level: 100%
-        - name: SOAP Webservices
-          level: 60%
-        - name: JVM Agents development
+        - name: Desenvolvimento de agents para JVM
           level: 80%
-        - name: .NET Test Adapters development
+        - name: Desenvolvimento de Test Adapters para .NET
           level: 80%
 
-    - name: Tecnologias de Desenvolvimento
+    - name: Linguagens & Frameworks Backend
       toolset:
         - name: Java
           level: 100%
@@ -180,7 +178,7 @@ pt:
           level: 80%
         - name: Python
           level: 60%
-        - name: Node
+        - name: Node.js
           level: 70%
         - name: Maven
           level: 100%
@@ -188,7 +186,7 @@ pt:
           level: 100%
         - name: Hibernate
           level: 80%
-        - name: SpringData
+        - name: Spring Data
           level: 80%
         - name: Quartz
           level: 60%
@@ -197,20 +195,26 @@ pt:
         - name: ActiveMQ
           level: 80%
 
-    - name: Testes &amp; Medições	
+    - name: Testes & Qualidade
       toolset:
-        - name: jMeter
+        - name: JUnit
+          level: 100%
+        - name: Mockito
           level: 80%
         - name: TestContainers
           level: 80%
-        - name: Mockito
+        - name: JMeter
           level: 80%
+        - name: Postman
+          level: 80%
+        - name: TDD / BDD
+          level: 60%
 
-    - name: Denvolvimento Mobile
+    - name: Desenvolvimento Mobile
       toolset:
-        - name: React-Native
+        - name: React Native
           level: 80%
-        - name: Android Native Development
+        - name: Android (Java/Kotlin)
           level: 60%
         - name: Ionic
           level: 100%
@@ -231,10 +235,10 @@ pt:
           level: 80%
         - name: jQuery
           level: 80%
-        - name: JSF Primefaces
+        - name: JSF / PrimeFaces
           level: 25%
-          
-    - name: CICD / Infraestrutura
+
+    - name: DevOps & Infraestrutura
       toolset:
         - name: Jenkins & Groovy
           level: 80%
@@ -244,17 +248,17 @@ pt:
           level: 100%
         - name: JBoss
           level: 60%
-        - name: Weblogic
+        - name: WebLogic
           level: 60%
         - name: Apache
           level: 100%
-        - name: Ngnix
+        - name: Nginx
           level: 80%
         - name: Bash Script
           level: 80%
-        - name: Linux, Debian, CentOS
+        - name: Linux (Debian, CentOS)
           level: 80%
-        - name: Sonarqube
+        - name: SonarQube
           level: 100%
         - name: Google Cloud
           level: 60%
@@ -263,11 +267,22 @@ pt:
 
     - name: Gerenciamento de Dados
       toolset:
-        - name: Sql Server
+        - name: SQL Server
           level: 100%
         - name: Oracle
           level: 100%
-        - name: MySql
+        - name: MySQL
           level: 100%
         - name: Elasticsearch
+          level: 80%
+
+    - name: Metodologias & Processos
+      toolset:
+        - name: Scrum / Kanban
+          level: 100%
+        - name: Gitflow / GitHub Flow
+          level: 80%
+        - name: Code Review & Pull Requests
+          level: 100%
+        - name: Análise de requisitos / UML
           level: 80%
