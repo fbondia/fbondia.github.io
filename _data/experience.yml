@@ -2,17 +2,15 @@ en:
   title: Professional Experience
   roles:
 
-    - role: Systems Designer and Developer
-      time: 01/2014 - present (sometimes working part-time)
-      period: 11 yrs 6 mos
-      company: TIM Brasil
+    - role: Senior Software Engineer / Solution Architect
+      time: 01/2014 - present
+      period: Long-term engagement
+      company: Bosonit · TIM Brasil
       logo: tim.png
       details: |
-        Project developed through the consulting firm Nalbatech/Bosonit.
-        
-        Design and development of a web/mobile application for managing preventive maintenance for the company's equipment network.
-        
-        Responsible for the entire application architecture and development, as well as its functional evolution and continuous integration pipelines.
+        Designed and continue to evolve an end-to-end preventive-maintenance platform for TIM Brasil through Nalbatech/Bosonit.
+
+        Responsible for the React Native application, Java backend, solution architecture, corporate integrations, Jenkins pipelines, automated testing, production support, and continuous product evolution.
 
       highlights:
         - title: "Technologies" 
@@ -340,17 +338,15 @@ pt:
   title: Experiência Profissional
   roles:
 
-    - role: Arquiteto e Desenvolvedor de Sistemas
-      time: 01/2014 - presente (às vezes em tempo parcial)
-      period: 11 anos e 6 meses
-      company: TIM Brasil
+    - role: Engenheiro de Software Sênior / Arquiteto de Soluções
+      time: 01/2014 - presente
+      period: Projeto de longo prazo
+      company: Bosonit · TIM Brasil
       logo: tim.png
       details: |
-        Projeto desenvolvido por meio da consultoria Nalbatech/Bosonit.
-        
-        Concepção e desenvolvimento de uma aplicação web/mobile para gestão de manutenções preventivas na rede de equipamentos da empresa.
-        
-        Responsável por toda a arquitetura e desenvolvimento da aplicação, bem como sua evolução funcional e os pipelines de integração contínua.
+        Projetei e continuo evoluindo uma plataforma completa de manutenção preventiva para a TIM Brasil por meio da Nalbatech/Bosonit.
+
+        Sou responsável pela aplicação React Native, backend Java, arquitetura da solução, integrações corporativas, pipelines Jenkins, testes automatizados, sustentação em produção e evolução contínua do produto.
 
       highlights:
         - title: "Tecnologias"

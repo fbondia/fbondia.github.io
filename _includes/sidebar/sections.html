@@ -2,32 +2,33 @@
 {% assign experiences = site.data.experience[lang] %}
 {% assign skills = site.data.skills[lang] %}
 {% assign about = site.data.about[lang] %}
+{% assign projects = site.data.projects[lang] %}
 
 <div class="sections-container container-block">
 
   <h2 class="container-block-title">
-    Sections
+    {% if lang == "pt" %}Seções{% else %}Sections{% endif %}
   </h2>
 
   <ul class="list-unstyled interests-list">
 
     {% if about %}
-      <li><a href="#about">About</a></li>
+      <li><a href="#about">{% if lang == "pt" %}Sobre{% else %}About{% endif %}</a></li>
     {% endif %}
 
     {% if skills %}
-      <li><a href="#skills">Skills</a></li>
+      <li><a href="#skills">{% if lang == "pt" %}Competências{% else %}Skills{% endif %}</a></li>
       {% for category in skills.categories %}
         <li>&nbsp;&nbsp;<a href="#skill{{forloop.index}}">{{category.name}}</a></li>
       {% endfor %}
     {% endif %}
 
     {% if experiences %}
-      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#experiences">{% if lang == "pt" %}Experiência{% else %}Experience{% endif %}</a></li>
     {% endif %}
 
     {% if projects %}
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#projects">{% if lang == "pt" %}Projetos{% else %}Projects{% endif %}</a></li>
     {% endif %}
 
     {% if publications %}

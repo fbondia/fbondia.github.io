@@ -19,4 +19,6 @@ lang: pt
 
 {% include resume-skills.html %}
 
+{% include resume-projects.html %}
+
 {% include resume-experiences.html %}

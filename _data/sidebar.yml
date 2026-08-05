@@ -4,7 +4,7 @@ en:
 
   # Profile information
   name: Fabiano Bondia
-  tagline: Full Stack Developer
+  tagline: Senior Software Engineer | Software Architecture | Agent-Native Systems
   avatar: profile.jpeg  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -41,7 +41,7 @@ pt:
 
   # Profile information
   name: Fabiano Bondia
-  tagline: Full Stack Developer
+  tagline: Engenheiro de Software Sênior | Arquitetura de Software | Agent-Native Systems
   avatar: profile.jpeg  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links

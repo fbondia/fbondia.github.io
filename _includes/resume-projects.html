@@ -1,0 +1,20 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign projects = site.data.projects[lang] %}
+
+{% if projects %}
+<section class="section">
+  <h2>{{ projects.title }}</h2>
+
+  {% for project in projects.items %}
+  <div class="item" style="border-top:0; margin-bottom:12px;">
+    <div class="job-title">{{ project.name }} — {{ project.role }}</div>
+    <div class="details">
+      {{ project.description | markdownify }}
+      <p><strong>Stack:</strong> {{ project.technologies }}</p>
+      <p><a href="{{ project.url }}">{{ project.link_label }}</a></p>
+    </div>
+    <hr/>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

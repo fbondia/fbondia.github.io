@@ -6,7 +6,7 @@ url: 'https://fbondia.github.io'
 languages: ["en", "pt"] 
 language: "en"
 
-description: Fabiano Bondia
+description: Senior Software Engineer focused on software architecture, Java, React Native, CI/CD, and agent-native systems.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 

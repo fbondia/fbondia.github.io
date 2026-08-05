@@ -9,19 +9,19 @@
     <div class="text-center">
 
         {% if about %}
-            <a href="#about">About</a> |
+            <a href="#about">{% if lang == "pt" %}Sobre{% else %}About{% endif %}</a> |
         {% endif %}
         
         {% if skills %}
-            <a href="#skills">Skills</a> |
+            <a href="#skills">{% if lang == "pt" %}Competências{% else %}Skills{% endif %}</a> |
         {% endif %}
         
         {% if experiences %}
-            <a href="#experiences">Experiences</a>
+            <a href="#experiences">{% if lang == "pt" %}Experiência{% else %}Experience{% endif %}</a>{% if projects %} |{% endif %}
         {% endif %}
         
         {% if projects %}
-            <a href="#projects">Projects</a>
+            <a href="#projects">{% if lang == "pt" %}Projetos{% else %}Projects{% endif %}</a>
         {% endif %}
         
         <small class="copyright">{{ site.data.footer }}</small>

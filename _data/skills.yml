@@ -2,6 +2,19 @@ en:
   title: Skills & Competencies
   categories:
 
+    - name: Applied AI & Agent-Native Systems
+      toolset:
+        - name: AI agents and human-agent workflows
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: Retrieval-Augmented Generation (RAG)
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: LangChain / LangGraph
+          level: ⚫️⚫️⚫️⚪⚪
+        - name: OpenAI APIs and agent clients
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: Model Context Protocol (MCP)
+          level: ⚫️⚫️⚫️⚫️⚪
+
     - name: Architecture & Development Practices
       toolset:
         - name: End-to-end software development lifecycle
@@ -153,6 +166,19 @@ en:
 pt:
   title: Habilidades & Competências
   categories:
+
+    - name: IA Aplicada & Sistemas Agent-Native
+      toolset:
+        - name: Agentes de IA e fluxos híbridos entre pessoas e agentes
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: Geração Aumentada por Recuperação (RAG)
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: LangChain / LangGraph
+          level: ⚫️⚫️⚫️⚪⚪
+        - name: APIs da OpenAI e clientes de agentes
+          level: ⚫️⚫️⚫️⚫️⚪
+        - name: Model Context Protocol (MCP)
+          level: ⚫️⚫️⚫️⚫️⚪
 
     - name: Arquitetura & Práticas de Desenvolvimento
       toolset:

@@ -1,0 +1,30 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign projects = site.data.projects[lang] %}
+
+{% if projects %}
+<a name="projects"></a>
+<section class="section projects-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projects.title }}
+  </h2>
+
+  {% for project in projects.items %}
+  <div class="item">
+    <h3 class="project-title">
+      {% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{% endif %}
+      {{ project.name }}
+      {% if project.url %}</a>{% endif %}
+    </h3>
+    <div class="company">{{ project.role }}</div>
+    <div class="details">
+      {{ project.description | markdownify }}
+      <p><strong>{{ project.link_label }}:</strong> <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.url }}</a></p>
+      <p><strong>Stack:</strong> {{ project.technologies }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

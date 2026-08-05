@@ -1,0 +1,65 @@
+en:
+  title: Selected Projects
+  items:
+    - name: Bondia Workspaces (BIAWS)
+      role: Creator & Lead Developer
+      url: https://github.com/fbondia/biaws
+      link_label: GitHub repository
+      description: |
+        Open-source, agent-native operational workspace for hybrid human and AI software teams. It brings together issues, improvements, operational procedures, application topology, runtime health signals, and versioned agent skills in a single platform.
+
+        Designed domain-scoped MCP tools and a CLI workflow for publishing and installing agent capabilities without unrestricted database access. The platform includes workspace-level authorization, audit trails, reproducible Docker installation, multi-instance support, and integrations with agent clients such as Codex and Claude.
+      technologies: Artificial Intelligence, Software Architecture, Node.js, React, MongoDB, Docker, MCP
+
+    - name: Manura
+      role: Creator & Software Architect
+      url: https://app.manura.co/
+      link_label: Product website
+      description: |
+        Modular platform for asset management, maintenance, and field operations. It supports asset lifecycle management, preventive, corrective and predictive activities, dynamic forms, configurable workflows, geographic planning, offline mobile execution, inventory, operational resources, audit trails, and AI-assisted configuration.
+
+        Responsible for product architecture across web, mobile, backend, shared domain components, automated testing, CI/CD, observability, and operational tooling.
+      technologies: Software Architecture, React Native, React, Node.js, Firebase, MongoDB, Playwright
+
+    - name: Quero QR
+      role: Creator & Full-Stack/Mobile Engineer
+      url: https://play.google.com/store/apps/details?id=br.com.bondia.queroqr
+      link_label: Google Play
+      description: |
+        End-to-end platform that connects physical objects to persistent digital identities through stable QR Codes. Each item can have a structured digital profile with public or private information, photos, files, notes, checklists, history, collections, analytics, and visitor interactions.
+
+        Responsible for product design, software architecture, web and mobile development, backend services, billing, automated testing, deployment, and the complete physical-to-digital user experience.
+      technologies: React Native, React, Firebase, Google Cloud, Software Architecture, Playwright
+
+pt:
+  title: Projetos Selecionados
+  items:
+    - name: Bondia Workspaces (BIAWS)
+      role: Criador e Desenvolvedor Principal
+      url: https://github.com/fbondia/biaws
+      link_label: Repositório no GitHub
+      description: |
+        Workspace operacional open source e agent-native para equipes híbridas de software formadas por pessoas e agentes de IA. Reúne issues, melhorias, procedimentos operacionais, topologia de aplicações, sinais de saúde dos ambientes e skills versionadas para agentes em uma única plataforma.
+
+        Projetei ferramentas MCP com escopo por domínio e um fluxo baseado em CLI para publicar e instalar capacidades de agentes sem acesso irrestrito ao banco de dados. A plataforma inclui autorização por workspace, trilhas de auditoria, instalação reproduzível com Docker, suporte a múltiplas instâncias e integração com clientes como Codex e Claude.
+      technologies: Inteligência Artificial, Arquitetura de Software, Node.js, React, MongoDB, Docker, MCP
+
+    - name: Manura
+      role: Criador e Arquiteto de Software
+      url: https://app.manura.co/
+      link_label: Site do produto
+      description: |
+        Plataforma modular para gestão de ativos, manutenção e operações de campo. Oferece gestão do ciclo de vida de ativos, atividades preventivas, corretivas e preditivas, formulários dinâmicos, fluxos configuráveis, planejamento geográfico, execução móvel offline, estoque, recursos operacionais, trilhas de auditoria e configuração assistida por IA.
+
+        Sou responsável pela arquitetura do produto nas aplicações web e mobile, backend, componentes de domínio compartilhados, testes automatizados, CI/CD, observabilidade e ferramentas operacionais.
+      technologies: Arquitetura de Software, React Native, React, Node.js, Firebase, MongoDB, Playwright
+
+    - name: Quero QR
+      role: Criador e Engenheiro Full-Stack/Mobile
+      url: https://play.google.com/store/apps/details?id=br.com.bondia.queroqr
+      link_label: Google Play
+      description: |
+        Plataforma completa que conecta objetos físicos a identidades digitais persistentes por meio de QR Codes estáveis. Cada item pode possuir um perfil digital estruturado com informações públicas ou privadas, fotos, arquivos, notas, checklists, histórico, coleções, analytics e interações de visitantes.
+
+        Sou responsável pelo design do produto, arquitetura de software, desenvolvimento web e mobile, serviços de backend, pagamentos, testes automatizados, implantação e toda a experiência de integração entre o mundo físico e o digital.
+      technologies: React Native, React, Firebase, Google Cloud, Arquitetura de Software, Playwright

@@ -1,39 +1,49 @@
 en:
   title: About
   summary: |
-    I have over 20 years of experience in software development and architecture, building solutions with leading technologies for companies of all sizes — from startups to large corporations, including technically demanding environments.
+    Senior Software Engineer with more than 20 years of experience building and evolving business-critical systems across telecommunications, payments, insurance, retail, energy, and application security.
 
-    My experience is broad and covers nearly all phases of the software lifecycle, from initial design and development to deployment, maintenance, and support. Since 2014, my primary focus has been backend development with Java and Spring Boot, but I’ve also worked extensively with React, React Native, .NET, SQL Server, AngularJS, Python, Oracle, MySQL, among others.
+    I work across the full software delivery lifecycle — from solution architecture and backend services to mobile and web applications, automated testing, CI/CD, observability, and production support.
 
-    I’m passionate about solving complex problems, whether by designing new systems from scratch or evolving legacy systems. I value persistence and enjoy exploring unfamiliar technologies, often relying on a mix of patience, curiosity, and intuition to deliver solutions within reasonable timeframes.
+    At Bosonit, working on a long-term project for TIM Brasil, I designed and continue to evolve an end-to-end preventive-maintenance platform. My responsibilities include the React Native application, Java backend, solution architecture, Jenkins pipelines, and ongoing product evolution.
+
+    Previously, at BugScout, I worked on static code analysis and application security, integrating Jenkins, Maven, SonarQube, SAP, and Docker. I developed Java and Spring Boot components, bytecode instrumentation, Java agents, and .NET test adapters, while also contributing to documentation, packaging, and front-end modernization.
+
+    My core expertise includes Java, Spring Boot, React Native, React, Node.js, Docker, and CI/CD. More recently, I have been expanding my work in applied AI, including RAG, AI agents, LangChain, LangGraph, OpenAI APIs, Google Cloud, and agent-native systems.
+
+    I am at my best when turning complex operational problems into reliable, maintainable products and owning the solution from architecture through production.
 
     <b><em>Highlights</em></b>
 
     <ul>
-      <li>20+ years of experience in software development</li>
-      <li>End-to-end development expertise (design, build, deploy, support)</li>
-      <li>Strong knowledge of Java, Spring Boot, React, and React Native</li>
-      <li>Experience with CI/CD processes and server infrastructure</li>
-      <li>Cybersecurity awareness</li>
-      <li>Resilience, curiosity, and problem-solving mindset</li>
+      <li>End-to-end ownership, from architecture to production</li>
+      <li>Java, Spring Boot, React Native, React, Node.js, Docker, and CI/CD</li>
+      <li>Business-critical systems and complex corporate integrations</li>
+      <li>Application security and low-level code analysis</li>
+      <li>Applied AI, AI agents, RAG, and agent-native systems</li>
     </ul>
   
 pt:
   title: Sobre Mim
   summary: |
-    Atuo com desenvolvimento e arquitetura de software há mais de 20 anos, construindo soluções sob medida para empresas de todos os portes — de startups a grandes corporações.
+    Engenheiro de Software Sênior com mais de 20 anos de experiência na construção e evolução de sistemas críticos para negócios nos setores de telecomunicações, pagamentos, seguros, varejo, energia e segurança de aplicações.
 
-    Minha experiência abrange todas as etapas do ciclo de vida do software: da concepção à manutenção. Desde 2014, tenho atuado como desenvolvedor fullstack, com Java e Spring Boot no backend, React no frontend e React Native em apps móveis. Ao longo da carreira, também trabalhei com AngularJS, Ionic, .NET, SQL Server, Python, Oracle, MySQL, entre outras tecnologias.
+    Atuo em todo o ciclo de entrega de software — da arquitetura de soluções e serviços de backend a aplicações móveis e web, testes automatizados, CI/CD, observabilidade e sustentação em produção.
 
-    Sou movido por desafios e tenho prazer em resolver problemas complexos, seja criando sistemas do zero ou modernizando e tratando sistemas legados. Tenho facilidade para explorar novas tecnologias, intuição para detectar falhas e costumo unir persistência, curiosidade e objetividade para entregar soluções eficazes dentro dos prazos.
+    Na Bosonit, em um projeto de longo prazo para a TIM Brasil, projetei e continuo evoluindo uma plataforma completa de manutenção preventiva. Minhas responsabilidades incluem a aplicação React Native, o backend Java, a arquitetura da solução, os pipelines Jenkins e a evolução contínua do produto.
+
+    Anteriormente, na BugScout, trabalhei com análise estática de código e segurança de aplicações, integrando Jenkins, Maven, SonarQube, SAP e Docker. Desenvolvi componentes em Java e Spring Boot, instrumentação de bytecode, agentes Java e adaptadores de testes .NET, além de contribuir com documentação, empacotamento e modernização do front-end.
+
+    Minhas principais competências incluem Java, Spring Boot, React Native, React, Node.js, Docker e CI/CD. Mais recentemente, venho ampliando minha atuação em IA aplicada, incluindo RAG, agentes de IA, LangChain, LangGraph, APIs da OpenAI, Google Cloud e sistemas agent-native.
+
+    Tenho meu melhor desempenho ao transformar problemas operacionais complexos em produtos confiáveis e de fácil manutenção, assumindo a solução desde a arquitetura até a produção.
 
     <b><em>Destaques</em></b>
 
     <ul>
-      <li>Mais de 20 anos de experiência em desenvolvimento de software</li>
-      <li>Atuação em todas as fases do ciclo de desenvolvimento (concepção, construção, implantação, suporte)</li>
-      <li>Sólido conhecimento em Java, Spring Boot, React e React Native</li>
-      <li>Experiência com processos de CI/CD e infraestrutura de servidores</li>
-      <li>Conhecimento em cibersegurança</li>
-      <li>Resiliência, curiosidade e foco em resolução de problemas</li>
+      <li>Responsabilidade ponta a ponta, da arquitetura à produção</li>
+      <li>Java, Spring Boot, React Native, React, Node.js, Docker e CI/CD</li>
+      <li>Sistemas críticos para negócios e integrações corporativas complexas</li>
+      <li>Segurança de aplicações e análise de código em baixo nível</li>
+      <li>IA aplicada, agentes de IA, RAG e sistemas agent-native</li>
     </ul>

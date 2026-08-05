@@ -6,7 +6,7 @@
   <div class="education-container container-block">
 
     <h2 class="container-block-title">
-      Education
+      {% if lang == "pt" %}Educação{% else %}Education{% endif %}
     </h2>
 
     {% for graduation in education %}
