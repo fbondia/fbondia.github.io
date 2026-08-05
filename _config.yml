@@ -3,8 +3,8 @@
 # Site Settings
 title: Fabiano Bondia
 url: 'https://fbondia.github.io'
-languages: ["en", "pt"] 
-language: "en"
+languages: ["en", "pt"]
+language: "pt"
 
 description: Senior Software Engineer focused on software architecture, Java, React Native, CI/CD, and agent-native systems.
 theme_skin: ceramic # blue turquoise green berry orange ceramic

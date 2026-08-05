@@ -19,7 +19,10 @@
           </div>
           {% endif %}
           <div>
-            <p class="experience-period">{{ experience.time }}</p>
+            <p class="experience-period">
+              <span>{{ experience.time }}</span>
+              {% if experience.context %}<span class="experience-context">{{ experience.context }}</span>{% endif %}
+            </p>
             <h3 class="job-title">{{ experience.role }}</h3>
             <div class="company">{{ experience.company }}</div>
           </div>

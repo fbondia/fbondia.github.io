@@ -777,12 +777,24 @@ em {
     }
 
     .experience-period {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 7px;
         margin: 0 0 4px;
         color: #0f766e;
         font-size: 11px;
         font-weight: 800;
         letter-spacing: 0.08em;
         text-transform: uppercase;
+    }
+
+    .experience-context {
+        display: inline-flex;
+        padding: 3px 8px;
+        border-radius: 999px;
+        background: #ecfdf5;
+        letter-spacing: 0.04em;
     }
 
     .experience-card .job-title {

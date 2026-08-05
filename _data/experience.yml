@@ -6,10 +6,11 @@ en:
       featured: true
       time: 01/2014 - present
       period: Long-term engagement
+      context: Long-term parallel engagement
       company: TIM Brasil
       logo: tim.png
       details: |
-        Designed and continue to evolve an end-to-end preventive-maintenance platform for TIM Brasil through Nalbatech/Bosonit.
+        As a long-term parallel engagement through Nalbatech/Bosonit, I designed and continue to evolve an end-to-end preventive-maintenance platform for TIM Brasil.
 
         Responsible for the React Native application, Java backend, solution architecture, corporate integrations, Jenkins pipelines, automated testing, production support, and continuous product evolution.
 
@@ -345,10 +346,11 @@ pt:
       featured: true
       time: 01/2014 - presente
       period: Projeto de longo prazo
+      context: Projeto paralelo de longo prazo
       company: TIM Brasil
       logo: tim.png
       details: |
-        Projetei e continuo evoluindo uma plataforma completa de manutenção preventiva para a TIM Brasil por meio da Nalbatech/Bosonit.
+        Como projeto paralelo de longo prazo por meio da Nalbatech/Bosonit, projetei e continuo evoluindo uma plataforma completa de manutenção preventiva para a TIM Brasil.
 
         Sou responsável pela aplicação React Native, backend Java, arquitetura da solução, integrações corporativas, pipelines Jenkins, testes automatizados, sustentação em produção e evolução contínua do produto.
 
