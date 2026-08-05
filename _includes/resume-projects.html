@@ -2,12 +2,19 @@
 {% assign projects = site.data.projects[lang] %}
 
 {% if projects %}
-<section class="section">
+<section class="section projects-section">
   <h2>{{ projects.title }}</h2>
 
   {% for project in projects.items %}
   <div class="item" style="border-top:0; margin-bottom:12px;">
-    <div class="job-title">{{ project.name }} — {{ project.role }}</div>
+    <div class="project-header">
+      {% if project.logo %}
+      <div class="project-logo">
+        <img src="{{ site.baseurl }}/assets/images/{{ project.logo }}" alt="{{ project.name }} logo" />
+      </div>
+      {% endif %}
+      <div class="job-title">{{ project.name }} — {{ project.role }}</div>
+    </div>
     <div class="details">
       {{ project.description | markdownify }}
       <p><strong>Stack:</strong> {{ project.technologies }}</p>

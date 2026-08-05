@@ -3,6 +3,7 @@ en:
   items:
     - name: Bondia Workspaces (BIAWS)
       role: Creator & Lead Developer
+      logo: project-biaws.png
       url: https://github.com/fbondia/biaws
       link_label: GitHub repository
       description: |
@@ -13,6 +14,7 @@ en:
 
     - name: Manura
       role: Creator & Software Architect
+      logo: project-manura.png
       url: https://app.manura.co/
       link_label: Product website
       description: |
@@ -23,6 +25,7 @@ en:
 
     - name: Quero QR
       role: Creator & Full-Stack/Mobile Engineer
+      logo: project-queroqr.png
       url: https://play.google.com/store/apps/details?id=br.com.bondia.queroqr
       link_label: Google Play
       description: |
@@ -31,11 +34,23 @@ en:
         Responsible for product design, software architecture, web and mobile development, backend services, billing, automated testing, deployment, and the complete physical-to-digital user experience.
       technologies: React Native, React, Firebase, Google Cloud, Software Architecture, Playwright
 
+    - name: I-Ching Mobile
+      role: Creator & Mobile Engineer
+      logo: project-iching.png
+      url: https://play.google.com/store/apps/details?id=br.com.bondia.iching
+      link_label: Google Play
+      description: |
+        Independently designed and developed an Android application for I Ching consultations, with structured exploration of trigrams, hexagrams, changing lines, related hexagrams, and consultation history.
+
+        More recently, I added AI-assisted interpretation to help users explore consultation results from new perspectives while preserving the reflective, non-deterministic nature of the experience.
+      technologies: React Native, Firebase, Android, Mobile Architecture, Applied AI
+
 pt:
   title: Projetos Selecionados
   items:
     - name: Bondia Workspaces (BIAWS)
       role: Criador e Desenvolvedor Principal
+      logo: project-biaws.png
       url: https://github.com/fbondia/biaws
       link_label: Repositório no GitHub
       description: |
@@ -46,6 +61,7 @@ pt:
 
     - name: Manura
       role: Criador e Arquiteto de Software
+      logo: project-manura.png
       url: https://app.manura.co/
       link_label: Site do produto
       description: |
@@ -56,6 +72,7 @@ pt:
 
     - name: Quero QR
       role: Criador e Engenheiro Full-Stack/Mobile
+      logo: project-queroqr.png
       url: https://play.google.com/store/apps/details?id=br.com.bondia.queroqr
       link_label: Google Play
       description: |
@@ -63,3 +80,14 @@ pt:
 
         Sou responsável pelo design do produto, arquitetura de software, desenvolvimento web e mobile, serviços de backend, pagamentos, testes automatizados, implantação e toda a experiência de integração entre o mundo físico e o digital.
       technologies: React Native, React, Firebase, Google Cloud, Arquitetura de Software, Playwright
+
+    - name: I-Ching Mobile
+      role: Criador e Engenheiro Mobile
+      logo: project-iching.png
+      url: https://play.google.com/store/apps/details?id=br.com.bondia.iching
+      link_label: Google Play
+      description: |
+        Projetei e desenvolvi de forma independente um aplicativo Android para consultas ao I Ching, com exploração estruturada de trigramas, hexagramas, linhas mutantes, hexagramas relacionados e histórico de consultas.
+
+        Mais recentemente, acrescentei interpretação assistida por IA para ajudar o usuário a explorar os resultados sob novas perspectivas, preservando o caráter reflexivo e não determinístico da experiência.
+      technologies: React Native, Firebase, Android, Arquitetura Mobile, IA Aplicada

@@ -7,6 +7,29 @@
        font-size: 12pt;
     }
 
+    .section > h2 {
+       break-after: avoid-page;
+       page-break-after: avoid;
+    }
+
+    .item {
+       break-inside: avoid-page;
+       page-break-inside: avoid;
+    }
+
+    .projects-section .project-logo {
+       width: 40px;
+       height: 40px;
+       flex-basis: 40px;
+       border-radius: 8px;
+    }
+
+    p,
+    li {
+       orphans: 3;
+       widows: 3;
+    }
+
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);

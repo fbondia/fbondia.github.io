@@ -16,19 +16,16 @@
       <li><a href="#about">{% if lang == "pt" %}Sobre{% else %}About{% endif %}</a></li>
     {% endif %}
 
+    {% if projects %}
+      <li><a href="#projects">{% if lang == "pt" %}Projetos{% else %}Projects{% endif %}</a></li>
+    {% endif %}
+
     {% if skills %}
       <li><a href="#skills">{% if lang == "pt" %}Competências{% else %}Skills{% endif %}</a></li>
-      {% for category in skills.categories %}
-        <li>&nbsp;&nbsp;<a href="#skill{{forloop.index}}">{{category.name}}</a></li>
-      {% endfor %}
     {% endif %}
 
     {% if experiences %}
       <li><a href="#experiences">{% if lang == "pt" %}Experiência{% else %}Experience{% endif %}</a></li>
-    {% endif %}
-
-    {% if projects %}
-      <li><a href="#projects">{% if lang == "pt" %}Projetos{% else %}Projects{% endif %}</a></li>
     {% endif %}
 
     {% if publications %}

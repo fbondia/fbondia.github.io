@@ -13,12 +13,21 @@
 
   {% for project in projects.items %}
   <div class="item">
-    <h3 class="project-title">
-      {% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{% endif %}
-      {{ project.name }}
-      {% if project.url %}</a>{% endif %}
-    </h3>
-    <div class="company">{{ project.role }}</div>
+    <div class="project-header">
+      {% if project.logo %}
+      <div class="project-logo">
+        <img src="{{ site.baseurl }}/assets/images/{{ project.logo }}" alt="{{ project.name }} logo" />
+      </div>
+      {% endif %}
+      <div>
+        <h3 class="project-title">
+          {% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{% endif %}
+          {{ project.name }}
+          {% if project.url %}</a>{% endif %}
+        </h3>
+        <div class="company">{{ project.role }}</div>
+      </div>
+    </div>
     <div class="details">
       {{ project.description | markdownify }}
       <p><strong>{{ project.link_label }}:</strong> <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.url }}</a></p>

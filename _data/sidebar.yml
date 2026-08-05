@@ -13,7 +13,7 @@ en:
   github: fbondia
   bitbucket: fbondia
   twitter: '@fbondia'
-  pdf: https://github.com/fbondia/fbondia.github.io/raw/main/resume.pdf
+  pdf: /output/pdf/resume-en.pdf
   phone:
   website:
   telegram:
@@ -50,7 +50,7 @@ pt:
   github: fbondia
   bitbucket: fbondia
   twitter: '@fbondia'
-  pdf: https://github.com/fbondia/fbondia.github.io/raw/main/resume.pdf
+  pdf: /output/pdf/resume-pt.pdf
   phone:
   website:
   telegram:
