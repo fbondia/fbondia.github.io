@@ -10,10 +10,20 @@
     </h2>
 
     {% for experience in experiences.roles %}
+      {% if experience.featured %}
       <div class="item" style="border-top:0px; margin-bottom:12px;">
 
-        <div class="job-title">{{ experience.role }}</div>
-        <div class="company">{{ experience.company }} - {{ experience.time }}</div>
+        <div class="resume-experience-header">
+          {% if experience.logo %}
+          <div class="resume-company-logo">
+            <img src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="{{ experience.company }} logo" />
+          </div>
+          {% endif %}
+          <div>
+            <div class="job-title">{{ experience.role }}</div>
+            <div class="company">{{ experience.company }} - {{ experience.time }}</div>
+          </div>
+        </div>
         
         {% if experience.details %}
         <div class="details">
@@ -40,9 +50,21 @@
         <hr/>
 
       </div><!--//item-->
+      {% endif %}
     {% endfor %}
+
+    {% assign compact_experiences = experiences.roles | where_exp: "experience", "experience.featured != true" %}
+    {% if compact_experiences.size > 0 %}
+      <div class="resume-previous-experience">
+        <h3>{% if lang == 'pt' %}Experiências anteriores{% else %}Earlier experience{% endif %}</h3>
+        {% for experience in compact_experiences %}
+          <div class="resume-previous-item">
+            <b>{{ experience.role }}</b> · {{ experience.company }} <span>— {{ experience.time }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
 
   </section><!--//section-->
 
   {% endif %}
-

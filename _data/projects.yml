@@ -1,17 +1,6 @@
 en:
   title: Selected Projects
   items:
-    - name: Bondia Workspaces (BIAWS)
-      role: Creator & Lead Developer
-      logo: project-biaws.png
-      url: https://github.com/fbondia/biaws
-      link_label: GitHub repository
-      description: |
-        Open-source, agent-native operational workspace for hybrid human and AI software teams. It brings together issues, improvements, operational procedures, application topology, runtime health signals, and versioned agent skills in a single platform.
-
-        Designed domain-scoped MCP tools and a CLI workflow for publishing and installing agent capabilities without unrestricted database access. The platform includes workspace-level authorization, audit trails, reproducible Docker installation, multi-instance support, and integrations with agent clients such as Codex and Claude.
-      technologies: Artificial Intelligence, Software Architecture, Node.js, React, MongoDB, Docker, MCP
-
     - name: Manura
       role: Creator & Software Architect
       logo: project-manura.png
@@ -22,6 +11,17 @@ en:
 
         Responsible for product architecture across web, mobile, backend, shared domain components, automated testing, CI/CD, observability, and operational tooling.
       technologies: Software Architecture, React Native, React, Node.js, Firebase, MongoDB, Playwright
+
+    - name: Bondia Workspaces (BIAWS)
+      role: Creator & Lead Developer
+      logo: project-biaws.png
+      url: https://github.com/fbondia/biaws
+      link_label: GitHub repository
+      description: |
+        Open-source, agent-native operational workspace for hybrid human and AI software teams. It brings together issues, improvements, operational procedures, application topology, runtime health signals, and versioned agent skills in a single platform.
+
+        Designed domain-scoped MCP tools and a CLI workflow for publishing and installing agent capabilities without unrestricted database access. The platform includes workspace-level authorization, audit trails, reproducible Docker installation, multi-instance support, and integrations with agent clients such as Codex and Claude.
+      technologies: Artificial Intelligence, Software Architecture, Node.js, React, MongoDB, Docker, MCP
 
     - name: Quero QR
       role: Creator & Full-Stack/Mobile Engineer
@@ -48,17 +48,6 @@ en:
 pt:
   title: Projetos Selecionados
   items:
-    - name: Bondia Workspaces (BIAWS)
-      role: Criador e Desenvolvedor Principal
-      logo: project-biaws.png
-      url: https://github.com/fbondia/biaws
-      link_label: Repositório no GitHub
-      description: |
-        Workspace operacional open source e agent-native para equipes híbridas de software formadas por pessoas e agentes de IA. Reúne issues, melhorias, procedimentos operacionais, topologia de aplicações, sinais de saúde dos ambientes e skills versionadas para agentes em uma única plataforma.
-
-        Projetei ferramentas MCP com escopo por domínio e um fluxo baseado em CLI para publicar e instalar capacidades de agentes sem acesso irrestrito ao banco de dados. A plataforma inclui autorização por workspace, trilhas de auditoria, instalação reproduzível com Docker, suporte a múltiplas instâncias e integração com clientes como Codex e Claude.
-      technologies: Inteligência Artificial, Arquitetura de Software, Node.js, React, MongoDB, Docker, MCP
-
     - name: Manura
       role: Criador e Arquiteto de Software
       logo: project-manura.png
@@ -69,6 +58,17 @@ pt:
 
         Sou responsável pela arquitetura do produto nas aplicações web e mobile, backend, componentes de domínio compartilhados, testes automatizados, CI/CD, observabilidade e ferramentas operacionais.
       technologies: Arquitetura de Software, React Native, React, Node.js, Firebase, MongoDB, Playwright
+
+    - name: Bondia Workspaces (BIAWS)
+      role: Criador e Desenvolvedor Principal
+      logo: project-biaws.png
+      url: https://github.com/fbondia/biaws
+      link_label: Repositório no GitHub
+      description: |
+        Workspace operacional open source e agent-native para equipes híbridas de software formadas por pessoas e agentes de IA. Reúne issues, melhorias, procedimentos operacionais, topologia de aplicações, sinais de saúde dos ambientes e skills versionadas para agentes em uma única plataforma.
+
+        Projetei ferramentas MCP com escopo por domínio e um fluxo baseado em CLI para publicar e instalar capacidades de agentes sem acesso irrestrito ao banco de dados. A plataforma inclui autorização por workspace, trilhas de auditoria, instalação reproduzível com Docker, suporte a múltiplas instâncias e integração com clientes como Codex e Claude.
+      technologies: Inteligência Artificial, Arquitetura de Software, Node.js, React, MongoDB, Docker, MCP
 
     - name: Quero QR
       role: Criador e Engenheiro Full-Stack/Mobile

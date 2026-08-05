@@ -43,7 +43,11 @@
 
     .resume-contact {
        font-size: 8.5pt;
-       line-height: 1.35;
+       line-height: 1.45;
+    }
+
+    .resume-contact > div {
+       margin-bottom: .25mm;
     }
 
     .resume-contact a {
@@ -57,6 +61,10 @@
 
     .resume-contact span {
        margin: 0 1.2mm;
+    }
+
+    .resume-contact strong {
+       font-weight: 700;
     }
 
     .resume-objective {
@@ -177,9 +185,47 @@
        border-bottom: .7pt solid #222;
     }
 
+    .resume-document section:last-child .item {
+       break-inside: avoid;
+       page-break-inside: avoid;
+    }
+
     .resume-document .project-header {
        gap: 3mm;
        margin-bottom: 2mm;
+    }
+
+    .resume-experience-header {
+       display: flex;
+       align-items: center;
+       gap: 3mm;
+       margin-bottom: 2mm;
+       break-after: avoid;
+       page-break-after: avoid;
+    }
+
+    .resume-company-logo {
+       display: flex;
+       flex: 0 0 34px;
+       width: 34px;
+       height: 34px;
+       align-items: center;
+       justify-content: center;
+       padding: 3px;
+       border: .5pt solid #ddd;
+       border-radius: 5px;
+       background: #fff !important;
+    }
+
+    .resume-company-logo img {
+       display: block;
+       max-width: 100%;
+       max-height: 100%;
+       object-fit: contain;
+    }
+
+    .resume-experience-header .company {
+       margin-bottom: 0;
     }
 
     .resume-document .job-title {
@@ -205,6 +251,32 @@
 
     .resume-document hr {
        display: none;
+    }
+
+    .resume-previous-experience {
+       margin-top: 2mm;
+       padding-top: 2.5mm;
+       border-top: .7pt solid #222;
+       break-inside: avoid;
+       page-break-inside: avoid;
+    }
+
+    .resume-previous-experience h3 {
+       margin: 0 0 1.5mm;
+       color: #111;
+       font-size: 9.5pt;
+       font-weight: 700;
+    }
+
+    .resume-previous-item {
+       margin-bottom: .8mm;
+       color: #333;
+       font-size: 8.6pt;
+       line-height: 1.2;
+    }
+
+    .resume-previous-item b {
+       color: #111;
     }
 
     p,

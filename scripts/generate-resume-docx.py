@@ -282,25 +282,42 @@ def add_column_break(doc):
     run._r.append(break_node)
 
 
-def add_header(document, profile, site_url):
+def add_header(document, profile, site_url, lang):
     title = document.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.space_after = Pt(3)
     set_run_font(title.add_run(profile["name"]), size=18, bold=True)
 
+    labels = {
+        "email": "E-mail" if lang == "pt" else "Email",
+        "phone": "Telefone" if lang == "pt" else "Phone",
+        "location": "Localização" if lang == "pt" else "Location",
+    }
+
+    contact = document.add_paragraph()
+    contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    contact.paragraph_format.space_after = Pt(0)
+    set_run_font(contact.add_run(f"{labels['email']}: "), size=8.5, bold=True)
+    add_hyperlink(contact, profile["email"], f"mailto:{profile['email']}")
+    set_run_font(contact.add_run(f"  ·  {labels['phone']}: {profile['resume_phone']}"), size=8.5)
+
+    contact = document.add_paragraph()
+    contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    contact.paragraph_format.space_after = Pt(0)
+    set_run_font(contact.add_run(f"{labels['location']}: {profile['resume_location']}  ·  Website: "), size=8.5)
+    add_hyperlink(contact, site_url.removeprefix("https://").removeprefix("http://"), site_url)
+
     contact = document.add_paragraph()
     contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
     contact.paragraph_format.space_after = Pt(5)
-    links = [
-        (profile["email"], f"mailto:{profile['email']}"),
-        (site_url.removeprefix("https://").removeprefix("http://"), site_url),
-        (f"linkedin.com/in/{profile['linkedin']}", f"https://www.linkedin.com/in/{profile['linkedin']}/"),
-        (f"github.com/{profile['github']}", f"https://github.com/{profile['github']}"),
-    ]
-    for index, (label, url) in enumerate(links):
-        if index:
-            set_run_font(contact.add_run("  ·  "), size=8.5)
-        add_hyperlink(contact, label, url)
+    set_run_font(contact.add_run("LinkedIn: "), size=8.5, bold=True)
+    add_hyperlink(
+        contact,
+        f"linkedin.com/in/{profile['linkedin']}",
+        f"https://www.linkedin.com/in/{profile['linkedin']}/",
+    )
+    set_run_font(contact.add_run("  ·  GitHub: "), size=8.5, bold=True)
+    add_hyperlink(contact, f"github.com/{profile['github']}", f"https://github.com/{profile['github']}")
 
     objective = document.add_paragraph()
     objective.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -378,6 +395,19 @@ def project_logo(path):
     return stream
 
 
+def company_logo(path):
+    image = Image.open(path).convert("RGBA")
+    canvas = Image.new("RGBA", (120, 120), (255, 255, 255, 255))
+    image.thumbnail((106, 106), Image.Resampling.LANCZOS)
+    x = (120 - image.width) // 2
+    y = (120 - image.height) // 2
+    canvas.alpha_composite(image, (x, y))
+    stream = io.BytesIO()
+    canvas.save(stream, format="PNG")
+    stream.seek(0)
+    return stream
+
+
 def add_projects(document, projects, project_dir):
     add_section_band(document, projects["title"])
     for project in projects["items"]:
@@ -398,12 +428,22 @@ def add_projects(document, projects, project_dir):
         add_rule(document)
 
 
-def add_experiences(document, experiences):
+def add_experiences(document, experiences, lang, project_dir):
     add_section_band(document, experiences["title"])
-    for experience in experiences["roles"]:
+    featured = [experience for experience in experiences["roles"] if experience.get("featured")]
+    previous = [experience for experience in experiences["roles"] if not experience.get("featured")]
+
+    for experience in featured:
         role = document.add_paragraph(style="Resume Role")
+        logo_path = project_dir / "assets" / "images" / experience.get("logo", "")
+        if logo_path.is_file():
+            picture = role.add_run()
+            picture.add_picture(company_logo(logo_path), width=Inches(0.29), height=Inches(0.29))
+            set_run_font(role.add_run("  "), size=9)
         set_run_font(role.add_run(experience["role"]), size=10.25, bold=True)
         company = document.add_paragraph(style="Resume Meta")
+        if logo_path.is_file():
+            company.paragraph_format.left_indent = Inches(0.43)
         set_run_font(company.add_run(f"{experience['company']} - {experience['time']}"), size=9)
         for block in split_paragraphs(experience.get("details", "")):
             italic = "<i>" in experience.get("details", "") and len(split_paragraphs(experience.get("details", ""))) <= 2
@@ -414,6 +454,22 @@ def add_experiences(document, experiences):
             for item in highlight.get("items", []):
                 add_bullet(document, item["name"], style="Resume Compact Bullet")
         add_rule(document)
+
+    if previous:
+        heading = document.add_paragraph(style="Resume Category")
+        label = "Experiências anteriores" if lang == "pt" else "Earlier experience"
+        set_run_font(heading.add_run(label), size=9.25, bold=True)
+        heading.paragraph_format.space_before = Pt(3)
+        heading.paragraph_format.space_after = Pt(2)
+        for experience in previous:
+            paragraph = document.add_paragraph(style="Resume Body")
+            paragraph.paragraph_format.space_after = Pt(1.5)
+            set_run_font(paragraph.add_run(experience["role"]), size=8.75, bold=True)
+            set_run_font(
+                paragraph.add_run(f" · {experience['company']} — {experience['time']}"),
+                size=8.75,
+                color=MUTED,
+            )
 
 
 def add_footer(section, lang):
@@ -438,12 +494,12 @@ def build_resume(project_dir: Path, output_dir: Path, lang: str):
     configure_styles(document)
     configure_section(document.sections[0])
 
-    add_header(document, sidebar, config["url"])
+    add_header(document, sidebar, config["url"], lang)
     add_about(document, about, lang)
     add_languages_and_education(document, sidebar, education, lang)
     add_skills(document, skills)
     add_projects(document, projects, project_dir)
-    add_experiences(document, experiences)
+    add_experiences(document, experiences, lang, project_dir)
 
     for section in document.sections:
         configure_section(section)

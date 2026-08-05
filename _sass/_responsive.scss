@@ -25,6 +25,93 @@
 
 
 }
+
+@media (max-width: 960px) {
+    .portfolio-page {
+        padding: 14px;
+
+        .wrapper {
+            grid-template-columns: 1fr;
+            border-radius: 20px;
+        }
+
+        .sidebar-wrapper {
+            width: auto;
+            min-height: auto;
+        }
+
+        .sidebar-wrapper .profile-container {
+            padding-bottom: 26px;
+        }
+
+        .main-wrapper {
+            padding: 36px 30px 48px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .portfolio-page {
+        padding: 0;
+
+        .wrapper {
+            min-height: 100vh;
+            border: 0;
+            border-radius: 0;
+        }
+
+        .sidebar-wrapper .profile-container,
+        .sidebar-wrapper .container-block {
+            padding-right: 24px;
+            padding-left: 24px;
+        }
+
+        .main-wrapper {
+            padding: 30px 22px 42px;
+        }
+
+        .tab-navigation {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            margin-bottom: 34px;
+        }
+
+        .tab-button {
+            padding-right: 8px;
+            padding-left: 8px;
+        }
+
+        .summary ul,
+        .project-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .projects-section .project-card.project-card-featured {
+            grid-column: auto;
+        }
+
+        .additional-experiences-heading {
+            display: block;
+        }
+
+        .additional-experiences-heading p {
+            margin-top: 6px;
+        }
+
+        .experience-link {
+            grid-template-columns: minmax(0, 1fr) 16px;
+        }
+
+        .experience-link-time {
+            display: none;
+        }
+
+        .experience-dialog {
+            width: calc(100vw - 20px);
+        }
+    }
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 

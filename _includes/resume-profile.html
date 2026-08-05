@@ -4,13 +4,27 @@
 <header class="resume-profile">
   <h1>{{ profile.name }}</h1>
   <div class="resume-contact">
-    <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-    <span aria-hidden="true">·</span>
-    <a href="{{ site.url }}">{{ site.url | remove: 'https://' | remove: 'http://' }}</a>
-    <span aria-hidden="true">·</span>
-    <a href="https://www.linkedin.com/in/{{ profile.linkedin }}/">linkedin.com/in/{{ profile.linkedin }}</a>
-    <span aria-hidden="true">·</span>
-    <a href="https://github.com/{{ profile.github }}">github.com/{{ profile.github }}</a>
+    <div>
+      <strong>{% if lang == 'pt' %}E-mail{% else %}Email{% endif %}:</strong>
+      <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+      <span aria-hidden="true">·</span>
+      <strong>{% if lang == 'pt' %}Telefone{% else %}Phone{% endif %}:</strong>
+      {{ profile.resume_phone }}
+    </div>
+    <div>
+      <strong>{% if lang == 'pt' %}Localização{% else %}Location{% endif %}:</strong>
+      {{ profile.resume_location }}
+      <span aria-hidden="true">·</span>
+      <strong>Website:</strong>
+      <a href="{{ site.url }}">{{ site.url | remove: 'https://' | remove: 'http://' }}</a>
+    </div>
+    <div>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/{{ profile.linkedin }}/">linkedin.com/in/{{ profile.linkedin }}</a>
+      <span aria-hidden="true">·</span>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/{{ profile.github }}">github.com/{{ profile.github }}</a>
+    </div>
   </div>
   <div class="resume-objective">
     {{ profile.tagline }}

@@ -1,5 +1,5 @@
 {% assign lang = page.lang | default: site.language %}
-<div style="padding-top:30px;">
-  <h5><a style="color:rgb(255, 242, 0);" href="{{ site.baseurl }}/en/">🇺🇸 English Version</a></h5>
-  <h5><a style="color:rgb(255, 242, 0);" href="{{ site.baseurl }}/pt/">🇧🇷 Versão em Português</a></h5>
+<div class="language-switcher" aria-label="{% if lang == 'pt' %}Selecionar idioma{% else %}Select language{% endif %}">
+  <a class="{% if lang == 'en' %}is-current{% endif %}" href="{{ site.baseurl }}/en/">EN</a>
+  <a class="{% if lang == 'pt' %}is-current{% endif %}" href="{{ site.baseurl }}/pt/">PT</a>
 </div>

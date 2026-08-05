@@ -1,0 +1,23 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign skills = site.data.skills[lang] %}
+
+{% if skills %}
+<div class="sidebar-skills container-block">
+  <h2 class="container-block-title">
+    {% if lang == "pt" %}Competências{% else %}Skills{% endif %}
+  </h2>
+
+  <div class="sidebar-skill-groups">
+    {% for category in skills.categories %}
+    <details class="sidebar-skill-group" {% if forloop.first %}open{% endif %}>
+      <summary>{{ category.name }}</summary>
+      <ul class="sidebar-skill-list">
+        {% for skill in category.toolset %}
+        <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

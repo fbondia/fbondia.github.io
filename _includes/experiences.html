@@ -2,71 +2,86 @@
 {% assign experiences = site.data.experience[lang] %}
 
 {% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">{{ experiences.title }}</h2>
+  <p class="section-kicker">
+    {% if lang == "pt" %}Destaques recentes e histórico completo{% else %}Recent highlights and complete career history{% endif %}
+  </p>
 
-  <a name="experiences"></a>
-
-  <section class="section experiences-section">
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-      </span>    
-      {{experiences.title}}
-    </h2>
-
-
-    <ul class="index">
-      {% for experience in experiences.roles %}
-        <li>
-          <a href="#exp{{forloop.index}}">
-            [<b>{{ experience.company }}</b>] <em>{{ experience.role }}</em> - <i style="font-size: 10px;">{{ experience.period }}</i>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
+  <div class="featured-experiences">
     {% for experience in experiences.roles %}
-      <a name="exp{{forloop.index}}"></a>
-      <div class="item">
-
-        <div class="meta">
+      {% if experience.featured %}
+      <article class="item experience-card">
+        <div class="experience-card-header">
           {% if experience.logo %}
-            <img class="logo" src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="logo" />
+          <div class="experience-logo">
+            <img src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="{{ experience.company }} logo" />
+          </div>
           {% endif %}
-          
-          <div class="upper-row">
+          <div>
+            <p class="experience-period">{{ experience.time }}</p>
             <h3 class="job-title">{{ experience.role }}</h3>
             <div class="company">{{ experience.company }}</div>
-            <div class="time">{{ experience.time }}</div>
           </div>
-
         </div>
-        
+
         {% if experience.details %}
         <div class="details">
           {{ experience.details | markdownify }}
-
-          {% if experience.highlights %}
-
-            {% for highlight in experience.highlights %}
-
-              <b>{{highlight.title}}</b>
-              <ul>
-                {% for item in highlight.items %}
-                  <li>{{item.name}}</li>
-                {% endfor %}
+          {% for highlight in experience.highlights %}
+            <div class="technology-block">
+              <strong>{{ highlight.title }}</strong>
+              <ul class="technology-list">
+                {% for item in highlight.items %}<li>{{ item.name }}</li>{% endfor %}
               </ul>
-            
-            {% endfor %}
-
-          {% endif %}
-
-        </div><!--//details-->
+            </div>
+          {% endfor %}
+        </div>
         {% endif %}
-
-      </div><!--//item-->
+      </article>
+      {% endif %}
     {% endfor %}
+  </div>
 
-  </section><!--//section-->
+  <div class="additional-experiences">
+    <div class="additional-experiences-heading">
+      <h3>{% if lang == "pt" %}Experiências anteriores{% else %}Earlier experience{% endif %}</h3>
+      <p>{% if lang == "pt" %}Abra um item para consultar os detalhes.{% else %}Open an item to view its details.{% endif %}</p>
+    </div>
 
-  {% endif %}
+    <div class="experience-link-list">
+      {% for experience in experiences.roles %}
+        {% unless experience.featured %}
+        <button class="experience-link" type="button" data-dialog-target="experience-dialog-{{ forloop.index }}">
+          <span>
+            <strong>{{ experience.role }}</strong>
+            <small>{{ experience.company }}</small>
+          </span>
+          <span class="experience-link-time">{{ experience.time }}</span>
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        </button>
 
+        <dialog class="experience-dialog" id="experience-dialog-{{ forloop.index }}" aria-labelledby="experience-dialog-title-{{ forloop.index }}">
+          <div class="dialog-header">
+            <div>
+              <p>{{ experience.company }} · {{ experience.time }}</p>
+              <h3 id="experience-dialog-title-{{ forloop.index }}">{{ experience.role }}</h3>
+            </div>
+            <button class="dialog-close" type="button" data-dialog-close aria-label="{% if lang == 'pt' %}Fechar{% else %}Close{% endif %}">×</button>
+          </div>
+          <div class="dialog-content">
+            {{ experience.details | markdownify }}
+            {% for highlight in experience.highlights %}
+              <strong>{{ highlight.title }}</strong>
+              <ul class="technology-list">
+                {% for item in highlight.items %}<li>{{ item.name }}</li>{% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
+        </dialog>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

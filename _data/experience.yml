@@ -3,6 +3,7 @@ en:
   roles:
 
     - role: Senior Software Engineer / Solution Architect
+      featured: true
       time: 01/2014 - present
       period: Long-term engagement
       company: TIM Brasil
@@ -25,6 +26,7 @@ en:
             - name: JMeter
 
     - role: Senior Software Engineer
+      featured: true
       time: 08/2018 - 09/2024
       period: 6 yrs 2 mos
       company: Bugscout Inc.
@@ -54,6 +56,7 @@ en:
             - name: Linux Debian, Bash scripting
 
     - role: Senior Developer
+      featured: true
       time: 02/2016 - 07/2018
       period: 2 yrs 6 mos
       company: BNP Paribas Cardif
@@ -339,6 +342,7 @@ pt:
   roles:
 
     - role: Engenheiro de Software Sênior / Arquiteto de Soluções
+      featured: true
       time: 01/2014 - presente
       period: Projeto de longo prazo
       company: TIM Brasil
@@ -361,6 +365,7 @@ pt:
             - name: JMeter
 
     - role: Engenheiro de Software Sênior
+      featured: true
       time: 08/2018 - 09/2024
       period: 6 anos e 2 meses
       company: Bugscout Inc.
@@ -390,6 +395,7 @@ pt:
             - name: Linux Debian, scripts em Bash
 
     - role: Desenvolvedor Sênior
+      featured: true
       time: 02/2016 - 07/2018
       period: 2 anos e 6 meses
       company: BNP Paribas Cardif

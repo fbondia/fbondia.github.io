@@ -11,9 +11,9 @@ en:
   email: fabiano.bondia@gmail.com
   linkedin: fbondia
   github: fbondia
-  bitbucket: fbondia
-  twitter: '@fbondia'
   pdf: /output/pdf/resume-en.pdf
+  resume_phone: "+55 11 99246-0017"
+  resume_location: "Barueri, SP - Brazil"
   phone:
   website:
   telegram:
@@ -48,9 +48,9 @@ pt:
   email: fabiano.bondia@gmail.com
   linkedin: fbondia
   github: fbondia
-  bitbucket: fbondia
-  twitter: '@fbondia'
   pdf: /output/pdf/resume-pt.pdf
+  resume_phone: "+55 11 99246-0017"
+  resume_location: "Barueri, SP - Brasil"
   phone:
   website:
   telegram:

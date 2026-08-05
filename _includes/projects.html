@@ -2,17 +2,16 @@
 {% assign projects = site.data.projects[lang] %}
 
 {% if projects %}
-<a name="projects"></a>
 <section class="section projects-section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-    </span>
     {{ projects.title }}
   </h2>
 
+  <p class="section-kicker">{% if lang == "pt" %}Produtos e iniciativas autorais{% else %}Products and independent initiatives{% endif %}</p>
+
+  <div class="project-grid">
   {% for project in projects.items %}
-  <div class="item">
+  <article class="item project-card project-card-featured">
     <div class="project-header">
       {% if project.logo %}
       <div class="project-logo">
@@ -33,7 +32,8 @@
       <p><strong>{{ project.link_label }}:</strong> <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.url }}</a></p>
       <p><strong>Stack:</strong> {{ project.technologies }}</p>
     </div>
-  </div>
+  </article>
   {% endfor %}
+  </div>
 </section>
 {% endif %}
