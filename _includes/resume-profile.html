@@ -1,0 +1,18 @@
+{% assign lang = page.lang | default: site.language %}
+{% assign profile = site.data.sidebar[lang] %}
+
+<header class="resume-profile">
+  <h1>{{ profile.name }}</h1>
+  <div class="resume-contact">
+    <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ site.url }}">{{ site.url | remove: 'https://' | remove: 'http://' }}</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://www.linkedin.com/in/{{ profile.linkedin }}/">linkedin.com/in/{{ profile.linkedin }}</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/{{ profile.github }}">github.com/{{ profile.github }}</a>
+  </div>
+  <div class="resume-objective">
+    {{ profile.tagline }}
+  </div>
+</header>
